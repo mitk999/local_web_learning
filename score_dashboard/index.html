@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSVファイル読み込みとグラフ描画</title>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+    <input type="file" id="csvInput" accept=".*">
+    <input type="date" id="startDate">
+    <input type="date" id="endDate">
+    <button onclick="drawChart()">Draw Chart</button>
+    <canvas id="myChart" width="600" height="400"></canvas>
+
+    <script>
+        function drawChart() {
+            const fileInput = document.getElementById('csvInput');
+            const startDateInput = document.getElementById('startDate');
+            const endDateInput = document.getElementById('endDate');
+
+            const file = fileInput.files[0];
+            if (!file) return;
+
+            const reader = new FileReader();
+            reader.onload = function(e) {
+                const csv = e.target.result;
+                const rows = csv.split('\n').slice(1); // ヘッダーを除外
+
+                // 選択された期間のデータの抽出
+                const startDate = new Date(startDateInput.value);
+                const endDate = new Date(endDateInput.value);
+                const filteredRows = rows.filter(row => {
+                    const timestamp = new Date(row.split(',')[0]);
+                    return timestamp >= startDate && timestamp <= endDate;
+                });
+
+                // データの抽出と集計
+                const data = {};
+                filteredRows.forEach(row => {
+                    const columns = row.split(',');
+                    const timestamp = columns[0];
+                    const problemName = columns[1];
+                    const accuracy = parseInt(columns[4]);
+                    if (!data[problemName]) {
+                        data[problemName] = [];
+                    }
+                    data[problemName].push({ timestamp, accuracy });
+                });
+
+                // Chart.jsでグラフを描画
+                const ctx = document.getElementById('myChart').getContext('2d');
+                const datasets = Object.keys(data).map(problemName => {
+                    return {
+                        label: problemName,
+                        data: data[problemName].map(entry => entry.accuracy),
+                        borderColor: '#' + Math.floor(Math.random()*16777215).toString(16), // ランダムな色
+                        fill: false
+                    };
+                });
+
+                // 既存のChartが存在する場合は破棄する
+                if (window.myChart) {
+                    delete window.myChart;
+                }
+
+                window.myChart = new Chart(ctx, {
+                    type: 'line',
+                    data: {
+                        labels: filteredRows.map(row => row.split(',')[0]), // 時間をラベルに設定
+                        datasets: datasets
+                    },
+                    options: {
+                        scales: {
+                            y: {
+                                beginAtZero: true,
+                                ticks: {
+                                    stepSize: 10,
+                                    callback: function(value) {
+                                        return value + '%'; // Y軸の値に「%」を追加
+                                    }
+                                }
+                            }
+                        }
+                    }
+                });
+            };
+            reader.readAsText(file);
+        }
+    </script>
+</body>
+</html>
