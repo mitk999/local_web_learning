@@ -6,13 +6,14 @@ const fileUpload = document.getElementById("file-upload");
 const correctSound = document.getElementById('correct-sound');
 const incorrectSound = document.getElementById('incorrect-sound');
 
+let filename = '';
+let questions = [];
 let currentQuestionIndex = 0;
 let score = 0;
-let questions = [];
-
 
 fileUpload.addEventListener("change", function(event) {
     const file = event.target.files[0];
+    filename = file.name
     if (file) {
         const reader = new FileReader();
         reader.onload = function(e) {
@@ -34,9 +35,14 @@ function showQuestion(question) {
     questionElement.textContent = question.word;
     optionsContainer.innerHTML = "";
     
-    let uttr = new SpeechSynthesisUtterance(question.word)
-    uttr.lang = "en-US";
-    speechSynthesis.speak(uttr)
+    if (question.word_voice){
+        let uttr = new SpeechSynthesisUtterance(question.word)
+        if (is_japanese(question.word)){
+            uttr.lang = "ja-JP";
+        }else{uttr.lang = "en-US";}
+    
+        speechSynthesis.speak(uttr)
+    }
     if (question.options_shuffle){
         question.options = shuffle_arr(question.options)
     }
@@ -74,7 +80,7 @@ function checkAnswer(selectedOption) {
         if (currentQuestionIndex < questions.length) {
             showQuestion(questions[currentQuestionIndex]);
         } else {
-            const logMessage = `正解率: ${(score / questions.length) * 100}%`;
+            const logMessage = `${now_str()},${filename},${questions.length},${score},${Math.trunc((score / questions.length)) * 100}`;
             const blob = new Blob([logMessage], { type: "text/plain" });
             const downloadLink = document.createElement("a");
             downloadLink.href = URL.createObjectURL(blob);
@@ -98,4 +104,20 @@ function shuffle_arr(array) {
       array[randomIndex], array[currentIndex]];
   }
   return array
+}
+
+function is_japanese(txt){
+    for(var i=0; i < txt.length; i++){
+    if(txt.charCodeAt(i) >= 256) {
+        return true;
+    }
+    return false;
+  }
+}
+
+function now_str(){
+    var date = new Date();
+    date.setTime(date.getTime() + (9*60*60*1000));
+    var str_date = date.toISOString().replace('T', ' ').substr(0, 19);
+    return str_date
 }
