@@ -1,0 +1,28 @@
+[
+   {
+      "word":"Apple",
+      "kana":"リンゴ",
+      "options":[
+         "リンゴ",
+         "バナナ",
+         "オレンジ",
+         "イチゴ",
+         "メロン"
+      ],
+      "options_shuffle":true,
+      "answer":"リンゴ"
+   },
+   {
+      "word":"Cat",
+      "kana":"ネコ",
+      "options":[
+         "ネコ",
+         "イヌ",
+         "ウサギ",
+         "ネズミ",
+         "ライオン"
+      ],
+      "options_shuffle":true,
+      "answer":"ネコ"
+   }
+]
