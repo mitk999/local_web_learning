@@ -55,7 +55,7 @@
                 const datasets = Object.keys(data).map(problemName => {
                     return {
                         label: problemName,
-                        data: data[problemName].map(entry => entry.accuracy),
+                        data: data[problemName].map(entry => {return {x:entry.timestamp,y:entry.accuracy}}),
                         borderColor: '#' + Math.floor(Math.random()*16777215).toString(16), // ランダムな色
                         fill: false
                     };
@@ -69,7 +69,7 @@
                 window.myChart = new Chart(ctx, {
                     type: 'line',
                     data: {
-                        labels: filteredRows.map(row => row.split(',')[0]), // 時間をラベルに設定
+                        labels: filteredRows.map(row => row.split(',')[0]), // 時間をラベルに設定?
                         datasets: datasets
                     },
                     options: {
