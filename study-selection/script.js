@@ -98,7 +98,7 @@ function checkAnswer(selectedOption) {
                 levelupSound.currentTime = 0;
                 levelupSound.play();
             }
-            const logMessage = `${now_str()},${filename},${questions.length},${score},${Math.trunc((score / questions.length)) * 100}`;
+            const logMessage = `${now_str()},${filename},${questions.length},${score},${Math.trunc((score / questions.length) * 100)}`;
             const blob = new Blob([logMessage], { type: "text/plain" });
             const downloadLink = document.createElement("a");
             downloadLink.href = URL.createObjectURL(blob);

@@ -5,6 +5,22 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CSVファイル読み込みとグラフ描画</title>
     <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <style>
+    table {
+      border-collapse: collapse;
+      width: 100%;
+    }
+
+    th, td {
+      border: 1px solid #ddd;
+      padding: 8px;
+      text-align: left;
+    }
+
+    th {
+      background-color: #f2f2f2;
+    }
+    </style>
 </head>
 <body>
     <input type="file" id="csvInput" accept=".*">
@@ -12,9 +28,25 @@
     <input type="date" id="endDate">
     <button onclick="drawChart()">Draw Chart</button>
     <canvas id="myChart" width="600" height="400"></canvas>
-
+    <table id="scoreTable">
+        <thead>
+          <tr>
+            <th>問題名</th>
+            <th>最高得点</th>
+            <th>実行回数</th>
+            <th>実行日時</th>
+          </tr>
+        </thead>
+        <tbody>
+          <!-- データはここに挿入 -->
+        </tbody>
+    </table>
     <script>
-        function drawChart() {
+        function drawChart(){
+            drawbarchart();
+            drawScoreTable();
+        }
+        function drawbarchart() {
             const fileInput = document.getElementById('csvInput');
             const startDateInput = document.getElementById('startDate');
             const endDateInput = document.getElementById('endDate');
@@ -85,6 +117,58 @@
                             }
                         }
                     }
+                });
+            };
+            reader.readAsText(file);
+        }
+        function drawScoreTable() {
+            const tableBody = document.getElementById('scoreTable').getElementsByTagName('tbody')[0];
+            tableBody.innerHTML = '';
+
+            const fileInput = document.getElementById('csvInput');    
+            const file = fileInput.files[0];
+            if (!file) return;
+
+            const reader = new FileReader();
+            reader.onload = function(e) {
+                const csv = e.target.result;
+                const lines = csv.split('\n')
+                const data = lines.slice(1).map(line => {
+                  const values = line.split(',');
+                  return {
+                    date: values[0],
+                    problemName: values[1],
+                    correctAnswers: parseInt(values[2]),
+                    totalQuestions: parseInt(values[3]),
+                    score: parseInt(values[4])
+                  };
+                });
+                // 問題ごとの最高得点と実行回数を計算
+                const stats = {};
+                data.forEach(entry => {
+                  const problemName = entry.problemName;
+                  const score = entry.score;
+                  if (!stats[problemName] || stats[problemName].maxScore < score) {
+                    stats[problemName] = {
+                      maxScore: score,
+                      executionCount: 1,
+                      executionTime: entry.date
+                    };
+                  } else {
+                    stats[problemName].executionCount++;
+                  }
+                });
+                // テーブルにデータを挿入
+                Object.keys(stats).forEach(problemName => {
+                  const row = tableBody.insertRow();
+                  const cell1 = row.insertCell(0);
+                  const cell2 = row.insertCell(1);
+                  const cell3 = row.insertCell(2);
+                  const cell4 = row.insertCell(3);
+                  cell1.textContent = problemName;
+                  cell2.textContent = stats[problemName].maxScore;
+                  cell3.textContent = stats[problemName].executionCount;
+                  cell4.textContent = stats[problemName].executionTime;
                 });
             };
             reader.readAsText(file);
