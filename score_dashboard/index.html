@@ -27,9 +27,11 @@
                 const csv = e.target.result;
                 const rows = csv.split('\n')//.slice(1); // ヘッダーを除外
 
-                // 選択された期間のデータの抽出
-                const startDate = new Date(startDateInput.value);
-                const endDate = new Date(endDateInput.value);
+                // 選択された期間のデータの抽出.defaultは直近2か月間
+                var two_months_ago = new Date();
+                two_months_ago.setMonth(two_months_ago.getMonth() - 2);
+                const startDate = startDateInput.value ? new Date(startDateInput.value) : two_months_ago;
+                const endDate = endDateInput.value? new Date(endDateInput.value) : new Date(new Date().getTime() + (9 * 60 * 60 * 1000));
                 const filteredRows = rows.filter(row => {
                     const timestamp = new Date(row.split(',')[0]);
                     return timestamp >= startDate && timestamp <= endDate;
