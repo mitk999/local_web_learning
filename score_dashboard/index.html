@@ -25,7 +25,7 @@
             const reader = new FileReader();
             reader.onload = function(e) {
                 const csv = e.target.result;
-                const rows = csv.split('\n').slice(1); // ヘッダーを除外
+                const rows = csv.split('\n')//.slice(1); // ヘッダーを除外
 
                 // 選択された期間のデータの抽出
                 const startDate = new Date(startDateInput.value);
