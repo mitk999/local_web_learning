@@ -75,7 +75,11 @@ function checkAnswer(selectedOption) {
         resultElement.style.color = "red";
     }
 
-    scoreElement.textContent = `正解：${score}/${currentQuestionIndex + 1}`;
+    scoreElement.innerHTML = `
+    正解：${score}問<br>
+    解いた数：${currentQuestionIndex + 1}問<br>
+    全部で：${questions.length}問`
+    ;
 
     resultElement.style.display = "block";
 

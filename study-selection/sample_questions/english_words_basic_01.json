@@ -2,6 +2,7 @@
    {
       "word":"Apple",
       "kana":"リンゴ",
+      "word_voice":true,
       "options":[
          "リンゴ",
          "バナナ",
@@ -15,6 +16,7 @@
    {
       "word":"Cat",
       "kana":"ネコ",
+      "word_voice":true,
       "options":[
          "ネコ",
          "イヌ",
