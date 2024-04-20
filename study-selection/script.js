@@ -26,6 +26,7 @@ fileUpload.addEventListener("change", function(event) {
                 questions = shuffle_arr(JSON.parse(fileContent));
                 currentQuestionIndex = 0;
                 score = 0;
+                questionElement.textContent = "";
                 update_display_scores();
                 showQuestion(questions[currentQuestionIndex]);
             } catch (error) {
@@ -37,7 +38,11 @@ fileUpload.addEventListener("change", function(event) {
 });
 
 function showQuestion(question) {
-    questionElement.textContent = question.word;
+    
+    if (!question.word_hidden){
+        questionElement.textContent = question.word;
+    }
+
     optionsContainer.innerHTML = "";
     
     if (question.word_voice){
