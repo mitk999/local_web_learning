@@ -34,6 +34,7 @@
             <th>問題名</th>
             <th>最高得点</th>
             <th>実行回数</th>
+            <th>直近2回の平均点</th>
             <th>実行日時</th>
           </tr>
         </thead>
@@ -144,32 +145,45 @@
                   };
                 });
                 // 問題ごとの最高得点と実行回数を計算
-                const stats = {};
-                data.forEach(entry => {
-                  const problemName = entry.problemName;
-                  const score = entry.score;
-                  if (!stats[problemName] || stats[problemName].maxScore < score) {
-                    stats[problemName] = {
-                      maxScore: score,
-                      executionCount: 1,
-                      executionTime: entry.date
-                    };
-                  } else {
-                    stats[problemName].executionCount++;
-                  }
-                });
-                // テーブルにデータを挿入
-                Object.keys(stats).forEach(problemName => {
-                  const row = tableBody.insertRow();
-                  const cell1 = row.insertCell(0);
-                  const cell2 = row.insertCell(1);
-                  const cell3 = row.insertCell(2);
-                  const cell4 = row.insertCell(3);
-                  cell1.textContent = problemName;
-                  cell2.textContent = stats[problemName].maxScore;
-                  cell3.textContent = stats[problemName].executionCount;
-                  cell4.textContent = stats[problemName].executionTime;
-                });
+                  const stats = {};
+                  data.forEach(entry => {
+                    const problemName = entry.problemName;
+                    const score = entry.score;
+                    if (!stats[problemName]) {
+                      stats[problemName] = {
+                        maxScore: score,
+                        executionCount: 1,
+                        lastTwoScores: [score]
+                      };
+                    } else {
+                      stats[problemName].executionCount++;
+                      stats[problemName].lastTwoScores.push(score);
+                      if (stats[problemName].lastTwoScores.length > 2) {
+                        stats[problemName].lastTwoScores.shift();
+                      }
+                    }
+                    if (score > stats[problemName].maxScore) {
+                      stats[problemName].maxScore = score;
+                    }
+                  });
+
+                  // テーブルにデータを挿入
+                  Object.keys(stats).forEach(problemName => {
+                    const row = tableBody.insertRow();
+                    const cell1 = row.insertCell(0);
+                    const cell2 = row.insertCell(1);
+                    const cell3 = row.insertCell(2);
+                    const cell4 = row.insertCell(3);
+                    const cell5 = row.insertCell(4);
+                    const cell6 = row.insertCell(5);
+                    cell1.textContent = problemName;
+                    cell2.textContent = stats[problemName].maxScore;
+                    cell3.textContent = stats[problemName].executionCount;
+                    const lastTwoScores = stats[problemName].lastTwoScores;
+                    const averageScore = lastTwoScores.reduce((acc, cur) => acc + cur, 0) / lastTwoScores.length;
+                    cell4.textContent = isNaN(averageScore) ? '-' : averageScore.toFixed(2);
+                    cell5.textContent = data.filter(entry => entry.problemName === problemName)[0].date;
+                  });
             };
             reader.readAsText(file);
         }
