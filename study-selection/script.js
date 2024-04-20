@@ -4,8 +4,11 @@ const resultElement = document.getElementById("result");
 const scoreElement = document.getElementById("score");
 const fileUpload = document.getElementById("file-upload");
 const correctSound = document.getElementById('correct-sound');
+correctSound.volume=1.0;
 const incorrectSound = document.getElementById('incorrect-sound');
+incorrectSound.volume=0.8;
 const levelupSound = document.getElementById('levelup-sound');
+levelupSound.volume=0.2;
 
 let filename = '';
 let questions = [];
@@ -14,15 +17,16 @@ let score = 0;
 
 fileUpload.addEventListener("change", function(event) {
     const file = event.target.files[0];
-    filename = file.name
     if (file) {
         const reader = new FileReader();
         reader.onload = function(e) {
             const fileContent = e.target.result;
             try {
+                filename = file.name;
                 questions = shuffle_arr(JSON.parse(fileContent));
                 currentQuestionIndex = 0;
                 score = 0;
+                update_display_scores();
                 showQuestion(questions[currentQuestionIndex]);
             } catch (error) {
                 console.error("問題セットの読み込みエラー:", error);
@@ -75,17 +79,12 @@ function checkAnswer(selectedOption) {
         resultElement.style.color = "red";
     }
 
-    scoreElement.innerHTML = `
-    正解：${score}問<br>
-    解いた数：${currentQuestionIndex + 1}問<br>
-    全部で：${questions.length}問`
-    ;
-
     resultElement.style.display = "block";
 
     setTimeout(() => {
         resultElement.style.display = "none";
         currentQuestionIndex++;
+        update_display_scores();
         if (currentQuestionIndex < questions.length) {
             showQuestion(questions[currentQuestionIndex]);
         } else {
@@ -103,6 +102,7 @@ function checkAnswer(selectedOption) {
             //alert("全ての問題が終了しました");
             currentQuestionIndex = 0;
             score = 0;
+            update_display_scores();
             showQuestion(questions[currentQuestionIndex]);
         }
     }, 500);
@@ -134,4 +134,11 @@ function now_str(){
     date.setTime(date.getTime() + (9*60*60*1000));
     var str_date = date.toISOString().replace('T', ' ').substr(0, 19);
     return str_date
+}
+
+function update_display_scores(){
+    scoreElement.innerHTML = `
+    ${currentQuestionIndex + 1}問目 / ${questions.length}問中<br>
+    正解：${score}問<br>`
+    ;
 }
