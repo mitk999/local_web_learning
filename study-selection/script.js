@@ -5,6 +5,7 @@ const scoreElement = document.getElementById("score");
 const fileUpload = document.getElementById("file-upload");
 const correctSound = document.getElementById('correct-sound');
 const incorrectSound = document.getElementById('incorrect-sound');
+const levelupSound = document.getElementById('levelup-sound');
 
 let filename = '';
 let questions = [];
@@ -60,11 +61,15 @@ function checkAnswer(selectedOption) {
     const correctAnswer = currentQuestion.answer;
 
     if (selectedOption === correctAnswer) {
+        correctSound.pause();
+        correctSound.currentTime = 0;
         correctSound.play();
         resultElement.textContent = "正解！";
         resultElement.style.color = "green";
         score++;
     } else {
+        incorrectSound.pause();
+        incorrectSound.currentTime = 0;
         incorrectSound.play();
         resultElement.textContent = "不正解！正解は「" + correctAnswer + "」です。";
         resultElement.style.color = "red";
@@ -80,13 +85,18 @@ function checkAnswer(selectedOption) {
         if (currentQuestionIndex < questions.length) {
             showQuestion(questions[currentQuestionIndex]);
         } else {
+            if (questions.length === score){
+                levelupSound.pause();
+                levelupSound.currentTime = 0;
+                levelupSound.play();
+            }
             const logMessage = `${now_str()},${filename},${questions.length},${score},${Math.trunc((score / questions.length)) * 100}`;
             const blob = new Blob([logMessage], { type: "text/plain" });
             const downloadLink = document.createElement("a");
             downloadLink.href = URL.createObjectURL(blob);
             downloadLink.download = "quiz_log.txt";
             downloadLink.click();
-            alert("全ての問題が終了しました");
+            //alert("全ての問題が終了しました");
             currentQuestionIndex = 0;
             score = 0;
             showQuestion(questions[currentQuestionIndex]);
