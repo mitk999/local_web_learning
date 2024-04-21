@@ -1,0 +1,173 @@
+[
+  {
+    "word": "いち",
+    "word_voice": true,
+    "kana": "",
+    "options": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6",
+      "7",
+      "8",
+      "9"
+    ],
+    "options_shuffle": false,
+    "answer": "1",
+    "answer_description": "「いち」は「1」と書きます。"
+  },
+  {
+    "word": "に",
+    "word_voice": true,
+    "kana": "",
+    "options": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6",
+      "7",
+      "8",
+      "9"
+    ],
+    "options_shuffle": false,
+    "answer": "2",
+    "answer_description": "「に」は「2」と書きます。"
+  },
+  {
+    "word": "さん",
+    "word_voice": true,
+    "kana": "",
+    "options": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6",
+      "7",
+      "8",
+      "9"
+    ],
+    "options_shuffle": false,
+    "answer": "3",
+    "answer_description": "「さん」は「3」と書きます。"
+  },
+  {
+    "word": "よん",
+    "word_voice": true,
+    "kana": "",
+    "options": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6",
+      "7",
+      "8",
+      "9"
+    ],
+    "options_shuffle": false,
+    "answer": "4",
+    "answer_description": "「し」は「4」と書きます。"
+  },
+  {
+    "word": "ご",
+    "word_voice": true,
+    "kana": "",
+    "options": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6",
+      "7",
+      "8",
+      "9"
+    ],
+    "options_shuffle": false,
+    "answer": "5",
+    "answer_description": "「ご」は「5」と書きます。"
+  },
+  {
+    "word": "ろく",
+    "word_voice": true,
+    "kana": "",
+    "options": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6",
+      "7",
+      "8",
+      "9"
+    ],
+    "options_shuffle": false,
+    "answer": "6",
+    "answer_description": "「ろく」は「6」と書きます。"
+  },
+  {
+    "word": "なな",
+    "word_voice": true,
+    "kana": "",
+    "options": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6",
+      "7",
+      "8",
+      "9"
+    ],
+    "options_shuffle": false,
+    "answer": "7",
+    "answer_description": "「なな」は「7」と書きます。"
+  },
+  {
+    "word": "はち",
+    "word_voice": true,
+    "kana": "",
+    "options": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6",
+      "7",
+      "8",
+      "9"
+    ],
+    "options_shuffle": false,
+    "answer": "8",
+    "answer_description": "「はち」は「8」と書きます。"
+  },
+  {
+    "word": "きゅう",
+    "word_voice": true,
+    "kana": "",
+    "options": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6",
+      "7",
+      "8",
+      "9"
+    ],
+    "options_shuffle": false,
+    "answer": "9",
+    "answer_description": "「きゅう」は「9」と書きます。"
+  }
+]

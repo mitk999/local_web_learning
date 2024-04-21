@@ -1,0 +1,77 @@
+[
+   {
+      "word": "帽子",
+      "word_hidden": false,
+      "word_voice": false,
+      "kana": "ぼうし",
+      "options": [
+         "ぼうし",
+         "て",
+         "は",
+         "みず"
+      ],
+      "options_shuffle": true,
+      "answer": "ぼうし",
+      "answer-description": "帽子（ぼうし）は頭（あたま）を覆（おお）うための衣類（いるい）です。"
+   },
+   {
+      "word": "魔法",
+      "word_hidden": false,
+      "word_voice": false,
+      "kana": "まほう",
+      "options": [
+         "まほう",
+         "そら",
+         "みず",
+         "きのこ"
+      ],
+      "options_shuffle": true,
+      "answer": "まほう",
+      "answer-description": "魔法（まほう）は不思議（ふしぎ）な力（ちから）を使（つか）ってさまざまなことを起（お）こすことができると言（い）われています。"
+   },
+   {
+      "word": "傘",
+      "word_hidden": false,
+      "word_voice": false,
+      "kana": "かさ",
+      "options": [
+         "かさ",
+         "こと",
+         "なぐさめる",
+         "みち"
+      ],
+      "options_shuffle": true,
+      "answer": "かさ",
+      "answer-description": "傘（かさ）は雨（あめ）や日（ひ）よけに使（つか）う道具（どうぐ）です。"
+   },
+   {
+      "word": "車",
+      "word_hidden": false,
+      "word_voice": false,
+      "kana": "くるま",
+      "options": [
+         "くるま",
+         "て",
+         "は",
+         "みず"
+      ],
+      "options_shuffle": true,
+      "answer": "くるま",
+      "answer-description": "車（くるま）は道路（どうろ）を走（はし）る乗り物（のりもの）です。"
+   },
+   {
+      "word": "玩具",
+      "word_hidden": false,
+      "word_voice": false,
+      "kana": "おもちゃ",
+      "options": [
+         "おもちゃ",
+         "ひと",
+         "みず",
+         "ねこ"
+      ],
+      "options_shuffle": true,
+      "answer": "おもちゃ",
+      "answer-description": "玩具（おもちゃ）は子供（こども）が遊（あそ）ぶための道具（どうぐ）です。"
+   }
+]

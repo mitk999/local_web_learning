@@ -1,0 +1,77 @@
+[
+   {
+      "word": "鉛筆",
+      "word_hidden": false,
+      "word_voice": false,
+      "kana": "えんぴつ",
+      "options": [
+         "えんぴつ",
+         "ぺん",
+         "ほん",
+         "じしゃく"
+      ],
+      "options_shuffle": true,
+      "answer": "えんぴつ",
+      "answer-description": "鉛筆（えんぴつ）は文字（もじ）を書（か）くための道具（どうぐ）です。"
+   },
+   {
+      "word": "電気",
+      "word_hidden": false,
+      "word_voice": false,
+      "kana": "でんき",
+      "options": [
+         "でんき",
+         "かべ",
+         "たべる",
+         "みず"
+      ],
+      "options_shuffle": true,
+      "answer": "でんき",
+      "answer-description": "電気（でんき）は光（ひかり）や熱（ねつ）を作（つく）るエネルギーです。"
+   },
+   {
+      "word": "花火",
+      "word_hidden": false,
+      "word_voice": false,
+      "kana": "はなび",
+      "options": [
+         "はなび",
+         "くち",
+         "くも",
+         "ひかり"
+      ],
+      "options_shuffle": true,
+      "answer": "はなび",
+      "answer-description": "花火（はなび）は空（そら）で色（いろ）とりどりの花（はな）の形（かたち）を楽（たの）しむための遊（あそ）びです。"
+   },
+   {
+      "word": "机",
+      "word_hidden": false,
+      "word_voice": false,
+      "kana": "つくえ",
+      "options": [
+         "つくえ",
+         "いす",
+         "はな",
+         "でんき"
+      ],
+      "options_shuffle": true,
+      "answer": "つくえ",
+      "answer-description": "机（つくえ）は書類（しょるい）を書（か）いたり読（よ）んだりするための家具（かぐ）です。"
+   },
+   {
+      "word": "靴",
+      "word_hidden": false,
+      "word_voice": false,
+      "kana": "くつ",
+      "options": [
+         "くつ",
+         "うわぎ",
+         "ぼうし",
+         "てぶくろ"
+      ],
+      "options_shuffle": true,
+      "answer": "くつ",
+      "answer-description": "靴（くつ）は足（あし）を守（まも）るための履物（はきもの）です。"
+   }
+]

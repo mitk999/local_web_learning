@@ -1,0 +1,77 @@
+[
+   {
+      "word": "電車",
+      "word_hidden": false,
+      "word_voice": false,
+      "kana": "でんしゃ",
+      "options": [
+         "でんしゃ",
+         "くるま",
+         "ひこうき",
+         "じてんしゃ"
+      ],
+      "options_shuffle": true,
+      "answer": "でんしゃ",
+      "answer-description": "電車（でんしゃ）は鉄道（てつどう）を走（はし）る乗り物（のりもの）です。"
+   },
+   {
+      "word": "海",
+      "word_hidden": false,
+      "word_voice": false,
+      "kana": "うみ",
+      "options": [
+         "うみ",
+         "なみ",
+         "いずみ",
+         "さかな"
+      ],
+      "options_shuffle": true,
+      "answer": "うみ",
+      "answer-description": "海（うみ）は大（おお）きな水（みず）の広（ひろ）がりです。"
+   },
+   {
+      "word": "猫",
+      "word_hidden": false,
+      "word_voice": false,
+      "kana": "ねこ",
+      "options": [
+         "ねこ",
+         "いぬ",
+         "ひつじ",
+         "うさぎ"
+      ],
+      "options_shuffle": true,
+      "answer": "ねこ",
+      "answer-description": "猫（ねこ）は小（ちい）さな哺乳類（ほにゅうるい）で、家（いえ）で飼（か）われることがあります。"
+   },
+   {
+      "word": "本",
+      "word_hidden": false,
+      "word_voice": false,
+      "kana": "ほん",
+      "options": [
+         "ほん",
+         "かみ",
+         "え",
+         "てがみ"
+      ],
+      "options_shuffle": true,
+      "answer": "ほん",
+      "answer-description": "本（ほん）は紙（かみ）に印刷（いんさつ）された物語（ものがたり）や情報（じょうほう）が書（か）かれています。"
+   },
+   {
+      "word": "雨傘",
+      "word_hidden": false,
+      "word_voice": false,
+      "kana": "あまがさ",
+      "options": [
+         "あまがさ",
+         "かさ",
+         "ひょう",
+         "かぜ"
+      ],
+      "options_shuffle": true,
+      "answer": "あまがさ",
+      "answer-description": "雨傘（あまがさ）は雨（あめ）や日差（ひざし）から身（み）を守（まも）るための道具（どうぐ）です。"
+   }
+]

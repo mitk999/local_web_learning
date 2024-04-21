@@ -1,0 +1,77 @@
+[
+   {
+      "word": "星",
+      "word_hidden": false,
+      "word_voice": false,
+      "kana": "ほし",
+      "options": [
+         "ほし",
+         "つき",
+         "ひ",
+         "そら"
+      ],
+      "options_shuffle": true,
+      "answer": "ほし",
+      "answer-description": "星（ほし）は夜空（よぞら）に輝（かがや）いて見（み）える光（ひか）る物体（ぶったい）です。"
+   },
+   {
+      "word": "雲",
+      "word_hidden": false,
+      "word_voice": false,
+      "kana": "くも",
+      "options": [
+         "くも",
+         "かぜ",
+         "あめ",
+         "ゆき"
+      ],
+      "options_shuffle": true,
+      "answer": "くも",
+      "answer-description": "雲（くも）は空（そら）に浮（うか）ぶ水（みず）の粒（つぶ）や氷（こおり）の結晶（けっしょう）の集まり（あつまり）です。"
+   },
+   {
+      "word": "風",
+      "word_hidden": false,
+      "word_voice": false,
+      "kana": "かぜ",
+      "options": [
+         "かぜ",
+         "あめ",
+         "ゆき",
+         "くも"
+      ],
+      "options_shuffle": true,
+      "answer": "かぜ",
+      "answer-description": "風（かぜ）は空気（くうき）の流れ（ながれ）で、時（とき）に強（つよ）く吹（ふ）いたり穏（おだ）やかになったりします。"
+   },
+   {
+      "word": "虫",
+      "word_hidden": false,
+      "word_voice": false,
+      "kana": "むし",
+      "options": [
+         "むし",
+         "いぬ",
+         "さる",
+         "ねこ"
+      ],
+      "options_shuffle": true,
+      "answer": "むし",
+      "answer-description": "虫（むし）は小（ちい）さな生き物（いきもの）で、地面（じめん）や植物（しょくぶつ）の中（なか）で暮（く）らしています。"
+   },
+   {
+      "word": "月",
+      "word_hidden": false,
+      "word_voice": false,
+      "kana": "つき",
+      "options": [
+         "つき",
+         "ほし",
+         "そら",
+         "ひ"
+      ],
+      "options_shuffle": true,
+      "answer": "つき",
+      "answer-description": "月（つき）は夜空（よぞら）に浮（う）かぶ、地球（ちきゅう）の衛星（えいせい）です。"
+   }
+]

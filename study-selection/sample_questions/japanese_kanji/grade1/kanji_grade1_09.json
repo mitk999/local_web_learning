@@ -1,0 +1,77 @@
+[
+   {
+      "word": "本棚",
+      "word_hidden": false,
+      "word_voice": false,
+      "kana": "ほんだな",
+      "options": [
+         "ほんだな",
+         "つくえ",
+         "いす",
+         "たてもの"
+      ],
+      "options_shuffle": true,
+      "answer": "ほんだな",
+      "answer_description": "本棚（ほんだな）は本（ほん）を収納（しゅうのう）するための家具（かぐ）です。"
+   },
+   {
+      "word": "鏡",
+      "word_hidden": false,
+      "word_voice": false,
+      "kana": "かがみ",
+      "options": [
+         "かがみ",
+         "かさ",
+         "うち",
+         "はし"
+      ],
+      "options_shuffle": true,
+      "answer": "かがみ",
+      "answer_description": "鏡（かがみ）は自分（じぶん）の姿（すがた）を映（うつ）す道具（どうぐ）です。"
+   },
+   {
+      "word": "帽子",
+      "word_hidden": false,
+      "word_voice": false,
+      "kana": "ぼうし",
+      "options": [
+         "ぼうし",
+         "て",
+         "は",
+         "みず"
+      ],
+      "options_shuffle": true,
+      "answer": "ぼうし",
+      "answer_description": "帽子（ぼうし）は頭（あたま）を覆（おお）うための衣類（いるい）です。"
+   },
+   {
+      "word": "雪",
+      "word_hidden": false,
+      "word_voice": false,
+      "kana": "ゆき",
+      "options": [
+         "ゆき",
+         "あめ",
+         "はれ",
+         "かぜ"
+      ],
+      "options_shuffle": true,
+      "answer": "ゆき",
+      "answer_description": "雪（ゆき）は冷（さ）たい白（しろ）い氷（こおり）の結晶（けっしょう）が地上（ちじょう）に降（ふ）り積（つ）もったものです。"
+   },
+   {
+      "word": "時計",
+      "word_hidden": false,
+      "word_voice": false,
+      "kana": "とけい",
+      "options": [
+         "とけい",
+         "かさ",
+         "おかし",
+         "くつ"
+      ],
+      "options_shuffle": true,
+      "answer": "とけい",
+      "answer_description": "時計（とけい）は時間（じかん）を知（し）るための道具（どうぐ）です。"
+   }
+]
