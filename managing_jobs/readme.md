@@ -1,7 +1,8 @@
-# このフォルダには管理者用のジョブが配置してあります
+# This folder contains jobs for administrators.
 ## windows_cat_logs.bat
-各study-xxxを実施すると、終了後にログがダウンロードされます。
-ダウンロードしたログをmanageing_jobs/output配下にcatし、ダウンロードフォルダからは削除します。
+After each study-xxx is completed, the log will be downloaded. This job cat the downloaded log and create text under managing_jobs/output and delete it from the download folder.
+Only you have to do is to double click this file after study.
+
 ## windows_wordcount.bat
-各フォルダにある問題文（json）の中で"word"のキーのバリューを取り出して回数をカウントします。どのような問題が出題されているか、重複していないかなどを調査するのに便利です。
-また、一覧化した結果をchatgptなどのツールにINPUTしてその問題を含まないように問題を作ってもらうのに役に立ちます
+Extract the value of the "word" key from the question text (json) in each folder and count the number of times. 
+This is useful for investigating what kind of questions are being asked and whether there are any duplicates. It is also useful to input the listed results into a tool such as chatgpt and have them create questions that do not include the problem.
