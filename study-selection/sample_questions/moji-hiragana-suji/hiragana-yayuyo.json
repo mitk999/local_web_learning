@@ -1,0 +1,98 @@
+[
+   {
+      "word": "や",
+      "word_hidden": true,
+      "kana": "",
+      "word_voice": true,
+      "options": [
+         "や",
+         "ゆ",
+         "よ",
+         "わ",
+         "を",
+         "ん"
+      ],
+      "options_shuffle": false,
+      "answer": "や"
+   },
+   {
+      "word": "ゆ",
+      "word_hidden": true,
+      "kana": "",
+      "word_voice": true,
+      "options": [
+         "や",
+         "ゆ",
+         "よ",
+         "わ",
+         "を",
+         "ん"
+      ],
+      "options_shuffle": false,
+      "answer": "ゆ"
+   },
+   {
+      "word": "よ",
+      "word_hidden": true,
+      "kana": "",
+      "word_voice": true,
+      "options": [
+         "や",
+         "ゆ",
+         "よ",
+         "わ",
+         "を",
+         "ん"
+      ],
+      "options_shuffle": false,
+      "answer": "よ"
+   },
+   {
+      "word": "わ",
+      "word_hidden": true,
+      "kana": "",
+      "word_voice": true,
+      "options": [
+         "や",
+         "ゆ",
+         "よ",
+         "わ",
+         "を",
+         "ん"
+      ],
+      "options_shuffle": false,
+      "answer": "わ"
+   },
+   {
+      "word": "を",
+      "word_hidden": true,
+      "kana": "",
+      "word_voice": true,
+      "options": [
+         "や",
+         "ゆ",
+         "よ",
+         "わ",
+         "を",
+         "ん"
+      ],
+      "options_shuffle": false,
+      "answer": "を"
+   },
+   {
+      "word": "ん",
+      "word_hidden": true,
+      "kana": "",
+      "word_voice": true,
+      "options": [
+         "や",
+         "ゆ",
+         "よ",
+         "わ",
+         "を",
+         "ん"
+      ],
+      "options_shuffle": false,
+      "answer": "ん"
+   }
+]

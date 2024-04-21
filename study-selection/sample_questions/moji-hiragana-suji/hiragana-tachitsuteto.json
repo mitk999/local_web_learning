@@ -1,0 +1,77 @@
+[
+   {
+      "word": "た",
+      "word_hidden": true,
+      "kana": "",
+      "word_voice": true,
+      "options": [
+         "た",
+         "ち",
+         "つ",
+         "て",
+         "と"
+      ],
+      "options_shuffle": false,
+      "answer": "た"
+   },
+   {
+      "word": "ち",
+      "word_hidden": true,
+      "kana": "",
+      "word_voice": true,
+      "options": [
+         "た",
+         "ち",
+         "つ",
+         "て",
+         "と"
+      ],
+      "options_shuffle": false,
+      "answer": "ち"
+   },
+   {
+      "word": "つ",
+      "word_hidden": true,
+      "kana": "",
+      "word_voice": true,
+      "options": [
+         "た",
+         "ち",
+         "つ",
+         "て",
+         "と"
+      ],
+      "options_shuffle": false,
+      "answer": "つ"
+   },
+   {
+      "word": "て",
+      "word_hidden": true,
+      "kana": "",
+      "word_voice": true,
+      "options": [
+         "た",
+         "ち",
+         "つ",
+         "て",
+         "と"
+      ],
+      "options_shuffle": false,
+      "answer": "て"
+   },
+   {
+      "word": "と",
+      "word_hidden": true,
+      "kana": "",
+      "word_voice": true,
+      "options": [
+         "た",
+         "ち",
+         "つ",
+         "て",
+         "と"
+      ],
+      "options_shuffle": false,
+      "answer": "と"
+   }
+]
