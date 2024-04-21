@@ -13,6 +13,6 @@ JSONのフォーマットは以下。
          "メロン"  
       ],  
       "options_shuffle":true, -> 回答の順番を毎回変えたい場合はtrueに。  
-      "answer":"リンゴ" -> 回答をoptionsのなかから一つ選んで書いてください。こことoptionsの文字が一致する場合に正解判定されます,
-      "answer_description":"リンゴはApple（アップル）です。" -> 回答の解説を入れます
+      "answer":"リンゴ" -> 回答をoptionsのなかから一つ選んで書いてください。こことoptionsの文字が一致する場合に正解判定されます。  
+, "answer_description":"リンゴはApple（アップル）です。" -> 回答の解説を入れます
    },  
