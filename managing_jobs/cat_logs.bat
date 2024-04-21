@@ -1,8 +1,9 @@
 @echo off
+chcp 65001 > nul
 setlocal enabledelayedexpansion
 
 REM 出力するファイル名を指定します
-set OUTPUT_FILE=../logs/output.txt
+set OUTPUT_FILE=./output/study_logs.txt
 
 REM ダウンロードフォルダのパスを指定します
 set DOWNLOAD_FOLDER=%USERPROFILE%\Downloads
@@ -30,4 +31,8 @@ if exist "%OUTPUT_FILE%" (
 )
 
 echo ファイルのまとめが完了しました。
-pause
+
+REM 以下の行で無限ループを作成し、プロンプトが閉じないようにします。
+:loop
+timeout /t 3600 /nobreak >nul
+goto loop
