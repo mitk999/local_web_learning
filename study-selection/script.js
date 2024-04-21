@@ -3,6 +3,9 @@ const optionsContainer = document.getElementById("options-container");
 const resultElement = document.getElementById("result");
 const scoreElement = document.getElementById("score");
 const fileUpload = document.getElementById("file-upload");
+const nextButton = document.getElementById("next-button");
+nextButton.addEventListener("click", moveToNextQuestion);
+
 const correctSound = document.getElementById('correct-sound');
 correctSound.volume=1.0;
 const incorrectSound = document.getElementById('incorrect-sound');
@@ -73,44 +76,45 @@ function checkAnswer(selectedOption) {
         correctSound.pause();
         correctSound.currentTime = 0;
         correctSound.play();
-        resultElement.textContent = "正解！";
+        resultElement.innerHTML = "正解！";
         resultElement.style.color = "green";
         score++;
     } else {
         incorrectSound.pause();
         incorrectSound.currentTime = 0;
         incorrectSound.play();
-        resultElement.textContent = "不正解！正解は「" + correctAnswer + "」です。";
+        resultElement.innerHTML = "不正解！正解は「" + correctAnswer + "」です。";
         resultElement.style.color = "red";
     }
 
+    resultElement.innerHTML += "<br>" + currentQuestion.answer_description;
     resultElement.style.display = "block";
+}
 
-    setTimeout(() => {
-        resultElement.style.display = "none";
-        currentQuestionIndex++;
-        update_display_scores();
-        if (currentQuestionIndex < questions.length) {
-            showQuestion(questions[currentQuestionIndex]);
-        } else {
-            if (questions.length === score){
-                levelupSound.pause();
-                levelupSound.currentTime = 0;
-                levelupSound.play();
-            }
-            const logMessage = `${now_str()},${filename},${questions.length},${score},${Math.trunc((score / questions.length) * 100)}`;
-            const blob = new Blob([logMessage], { type: "text/plain" });
-            const downloadLink = document.createElement("a");
-            downloadLink.href = URL.createObjectURL(blob);
-            downloadLink.download = "quiz_log.txt";
-            downloadLink.click();
-            //alert("全ての問題が終了しました");
-            currentQuestionIndex = 0;
-            score = 0;
-            update_display_scores();
-            showQuestion(questions[currentQuestionIndex]);
+function moveToNextQuestion() {
+    resultElement.style.display = "none";
+    currentQuestionIndex++;
+    update_display_scores();
+    if (currentQuestionIndex < questions.length) {
+        showQuestion(questions[currentQuestionIndex]);
+    } else {
+        if (questions.length === score) {
+            levelupSound.pause();
+            levelupSound.currentTime = 0;
+            levelupSound.play();
         }
-    }, 500);
+        const logMessage = `${now_str()},${filename},${questions.length},${score},${Math.trunc((score / questions.length) * 100)}`;
+        const blob = new Blob([logMessage], { type: "text/plain" });
+        const downloadLink = document.createElement("a");
+        downloadLink.href = URL.createObjectURL(blob);
+        downloadLink.download = "quiz_log.txt";
+        downloadLink.click();
+        //alert("全ての問題が終了しました");
+        currentQuestionIndex = 0;
+        score = 0;
+        update_display_scores();
+        showQuestion(questions[currentQuestionIndex]);
+    }
 }
 
 function shuffle_arr(array) {
