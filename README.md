@@ -12,8 +12,8 @@ who want to study and create questions.
 And you can watch study history.
 
 # How to watch learning history?
-If you play learning, log file is download in your local download folder.
-If you double click "./score_dashboard/log_collect_jobs/cat_logs.bat", log files is collected to "score_dashboard/logs" folder and deleted files from Donwloads folder.
-Then, click "information" score dashboard link and upload score_dashboard/logs file. you can watch score by each learningfile.
+please read managing_jobs/readme.md.
 
+# How to create quiz?
+please read managing_jobs/readme.md.
 
