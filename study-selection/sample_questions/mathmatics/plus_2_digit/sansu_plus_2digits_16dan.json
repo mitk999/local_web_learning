@@ -1,0 +1,92 @@
+[
+  {
+    "word": "16+6",
+    "word_voice": true,
+    "kana": "",
+    "options": [
+      "22",
+      "23",
+      "24",
+      "25",
+      "26",
+      "27",
+      "28",
+      "29",
+      "30"
+    ],
+    "options_shuffle": false,
+    "answer": "22"
+  },
+  {
+    "word": "16+7",
+    "word_voice": true,
+    "kana": "",
+    "options": [
+      "22",
+      "23",
+      "24",
+      "25",
+      "26",
+      "27",
+      "28",
+      "29",
+      "30"
+    ],
+    "options_shuffle": false,
+    "answer": "23"
+  },
+  {
+    "word": "16+8",
+    "word_voice": true,
+    "kana": "",
+    "options": [
+      "22",
+      "23",
+      "24",
+      "25",
+      "26",
+      "27",
+      "28",
+      "29",
+      "30"
+    ],
+    "options_shuffle": false,
+    "answer": "24"
+  },
+  {
+    "word": "16+9",
+    "word_voice": true,
+    "kana": "",
+    "options": [
+      "22",
+      "23",
+      "24",
+      "25",
+      "26",
+      "27",
+      "28",
+      "29",
+      "30"
+    ],
+    "options_shuffle": false,
+    "answer": "25"
+  },
+  {
+    "word": "16+10",
+    "word_voice": true,
+    "kana": "",
+    "options": [
+      "22",
+      "23",
+      "24",
+      "25",
+      "26",
+      "27",
+      "28",
+      "29",
+      "30"
+    ],
+    "options_shuffle": false,
+    "answer": "26"
+  }
+]

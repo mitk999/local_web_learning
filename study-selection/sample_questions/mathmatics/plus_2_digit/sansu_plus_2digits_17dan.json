@@ -1,0 +1,135 @@
+[
+  {
+    "word": "17+4",
+    "word_voice": true,
+    "kana": "",
+    "options": [
+      "21",
+      "22",
+      "23",
+      "24",
+      "25",
+      "26",
+      "27",
+      "28",
+      "29",
+      "30"
+    ],
+    "options_shuffle": false,
+    "answer": "21"
+  },
+  {
+    "word": "17+5",
+    "word_voice": true,
+    "kana": "",
+    "options": [
+      "21",
+      "22",
+      "23",
+      "24",
+      "25",
+      "26",
+      "27",
+      "28",
+      "29",
+      "30"
+    ],
+    "options_shuffle": false,
+    "answer": "22"
+  },
+  {
+    "word": "17+6",
+    "word_voice": true,
+    "kana": "",
+    "options": [
+      "21",
+      "22",
+      "23",
+      "24",
+      "25",
+      "26",
+      "27",
+      "28",
+      "29",
+      "30"
+    ],
+    "options_shuffle": false,
+    "answer": "23"
+  },
+  {
+    "word": "17+7",
+    "word_voice": true,
+    "kana": "",
+    "options": [
+      "21",
+      "22",
+      "23",
+      "24",
+      "25",
+      "26",
+      "27",
+      "28",
+      "29",
+      "30"
+    ],
+    "options_shuffle": false,
+    "answer": "24"
+  },
+  {
+    "word": "17+8",
+    "word_voice": true,
+    "kana": "",
+    "options": [
+      "21",
+      "22",
+      "23",
+      "24",
+      "25",
+      "26",
+      "27",
+      "28",
+      "29",
+      "30"
+    ],
+    "options_shuffle": false,
+    "answer": "25"
+  },
+  {
+    "word": "17+9",
+    "word_voice": true,
+    "kana": "",
+    "options": [
+      "21",
+      "22",
+      "23",
+      "24",
+      "25",
+      "26",
+      "27",
+      "28",
+      "29",
+      "30"
+    ],
+    "options_shuffle": false,
+    "answer": "26"
+  },
+  {
+    "word": "17+10",
+    "word_voice": true,
+    "kana": "",
+    "options": [
+      "21",
+      "22",
+      "23",
+      "24",
+      "25",
+      "26",
+      "27",
+      "28",
+      "29",
+      "30"
+    ],
+    "options_shuffle": false,
+    "answer": "27"
+  }
+]
