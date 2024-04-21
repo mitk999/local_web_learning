@@ -1,0 +1,62 @@
+[
+   {
+      "word": "水",
+      "options": [
+         "かぜ",
+         "みず",
+         "ほのお",
+         "つち"
+      ],
+      "options_shuffle": true,
+      "answer": "みず",
+      "answer-description": "水は飲むことも、料理に使うことも、植物にあげることもできます。生きていく上でとても大切なものです。"
+   },
+   {
+      "word": "石",
+      "options": [
+         "き",
+         "いし",
+         "はな",
+         "くも"
+      ],
+      "options_shuffle": true,
+      "answer": "いし",
+      "answer-description": "石は自然にある硬い物質です。公園や川辺でよく見かけることができます。"
+   },
+   {
+      "word": "空",
+      "options": [
+         "そら",
+         "うみ",
+         "たに",
+         "やま"
+      ],
+      "options_shuffle": true,
+      "answer": "そら",
+      "answer-description": "空は晴れているときは青く見え、雲が多いときは白や灰色が混じります。"
+   },
+   {
+      "word": "羽",
+      "options": [
+         "つの",
+         "うろこ",
+         "はね",
+         "けがね"
+      ],
+      "options_shuffle": true,
+      "answer": "はね",
+      "answer-description": "羽は鳥が飛ぶために使うもので、とても軽くて丈夫です。"
+   },
+   {
+      "word": "草",
+      "options": [
+         "はな",
+         "き",
+         "くさ",
+         "いし"
+      ],
+      "options_shuffle": true,
+      "answer": "くさ",
+      "answer-description": "草は多くの場所で自然に生えている植物で、緑色が鮮やかです。公園や庭などでよく見ることができます。"
+   }
+]

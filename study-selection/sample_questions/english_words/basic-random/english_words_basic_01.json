@@ -1,0 +1,77 @@
+[
+   {
+      "word": "Cat",
+      "kana": "ネコ",
+      "word_voice": true,
+      "options": [
+         "ネコ",
+         "イヌ",
+         "トリ",
+         "ウサギ",
+         "ハムスター"
+      ],
+      "options_shuffle": true,
+      "answer": "ネコ",
+      "answer-description": "ネコは小さな動物（どうぶつ）で、しばしば家で飼（か）われています。毛並（けな）みはさまざまで、しっぽは長（なが）くてしなやかです。ネコは鳴（な）き声（ごえ）や仕草（しぐさ）でコミュニケーションをとります。Example: She has two cats at home."
+   },
+   {
+      "word": "Sun",
+      "kana": "太陽",
+      "word_voice": true,
+      "options": [
+         "太陽",
+         "月",
+         "星",
+         "雲",
+         "風"
+      ],
+      "options_shuffle": true,
+      "answer": "太陽",
+      "answer-description": "太陽（たいよう）は私たちの太陽系（たいようけい）の中心（ちゅうしん）にあります。それは非常（ひじょう）に大きく、非常に明るい光（ひかり）を放（はな）ちます。私たちの地球（ちきゅう）に光と熱（ねつ）を提供（ていきょう）し、生命（せいめい）を育（そだ）むために必要（ひつよう）です。Example: The sun rises in the east."
+   },
+   {
+      "word": "Rabbit",
+      "kana": "ウサギ",
+      "word_voice": true,
+      "options": [
+         "ウサギ",
+         "カメ",
+         "ライオン",
+         "トラ",
+         "クマ"
+      ],
+      "options_shuffle": true,
+      "answer": "ウサギ",
+      "answer-description": "ウサギは小型（しょうけい）の哺乳類（ほにゅうるい）で、長（なが）い耳（みみ）と柔（やわ）らかな毛皮（けがわ）を持（も）っています。彼らは非常に速（はや）く走（はし）ることができ、しばしば飛（と）び跳（は）ねるように移動（いどう）します。ウサギは野菜（やさい）を食（た）べることが好（す）きです。Example: He feeds his rabbit lettuce every day."
+   },
+   {
+      "word": "Water",
+      "kana": "水",
+      "word_voice": true,
+      "options": [
+         "水",
+         "火",
+         "土",
+         "風",
+         "木"
+      ],
+      "options_shuffle": true,
+      "answer": "水",
+      "answer-description": "水（みず）は透明（とうめい）で無味（むみ）無臭（むしゅう）の液体（えきたい）です。地球（ちきゅう）上のすべての生命（せいめい）にとって重要（じゅうよう）であり、飲料水（いんりょうすい）としても使用（しよう）されます。また、水は湖（みずうみ）、川（かわ）、海（うみ）などの自然（しぜん）の景観（けいかん）を形成（けいせい）します。Example: We should drink eight glasses of water every day."
+   },
+   {
+      "word": "Bird",
+      "kana": "トリ",
+      "word_voice": true,
+      "options": [
+         "トリ",
+         "ネズミ",
+         "サル",
+         "カエル",
+         "ヘビ"
+      ],
+      "options_shuffle": true,
+      "answer": "トリ",
+      "answer-description": "トリは空（そら）を飛（と）ぶ動物（どうぶつ）で、羽根（はね）を持（も）っています。彼らはさまざまな色（いろ）やサイズがあり、さまざまな鳴（な）き声で歌（うた）います。一部（いちぶ）の鳥（とり）は渡（わた）り鳥（どり）として知（し）られ、季節（きせつ）ごとに場所（ばしょ）を移動（いどう）します。Example: The bird sings beautifully every morning."
+   }
+]

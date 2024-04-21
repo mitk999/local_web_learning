@@ -1,0 +1,77 @@
+[
+  {
+    "word": "Bicycle",
+    "kana": "ジテンシャ",
+    "word_voice": true,
+    "options": [
+      "ジテンシャ",
+      "オートバイ",
+      "クルマ",
+      "ボート",
+      "ヘリコプター"
+    ],
+    "options_shuffle": true,
+    "answer": "ジテンシャ",
+    "answer-description": "Example: She rides her bicycle to work every day., 和訳: 彼女（かのじょ）は毎日（まいにち）自転車（じてんしゃ）で仕事（しごと）に行（い）きます。"
+  },
+  {
+    "word": "Elephant",
+    "kana": "ゾウ",
+    "word_voice": true,
+    "options": [
+      "ゾウ",
+      "ライオン",
+      "キリン",
+      "ゾウリムシ",
+      "カバ"
+    ],
+    "options_shuffle": true,
+    "answer": "ゾウ",
+    "answer-description": "Example: An elephant can carry up to 300 kilograms with its trunk., 和訳: 象（ぞう）はその鼻（はな）で最大（さいだい）300キログラムを運（はこ）ぶことができます。"
+  },
+  {
+    "word": "Strawberry",
+    "kana": "イチゴ",
+    "word_voice": true,
+    "options": [
+      "イチゴ",
+      "リンゴ",
+      "バナナ",
+      "メロン",
+      "キウイ"
+    ],
+    "options_shuffle": true,
+    "answer": "イチゴ",
+    "answer-description": "Example: She adds fresh strawberries to her cereal every morning., 和訳: 彼女（かのじょ）は毎朝（まいあさ）シリアルに新鮮（しんせん）なイチゴを加（くわ）えます。"
+  },
+  {
+    "word": "Volcano",
+    "kana": "カザン",
+    "word_voice": true,
+    "options": [
+      "カザン",
+      "サンリョウ",
+      "フジサン",
+      "アマダケ",
+      "セトナイカイ"
+    ],
+    "options_shuffle": true,
+    "answer": "カザン",
+    "answer-description": "Example: The volcano erupted last year, causing massive ash clouds., 和訳: 昨年（さくねん）その火山（かざん）は噴火（ふんか）し、大量（たいりょう）の灰雲（はいうん）を引（ひ）き起（お）こしました。"
+  },
+  {
+    "word": "Kangaroo",
+    "kana": "カンガルー",
+    "word_voice": true,
+    "options": [
+      "カンガルー",
+      "コアラ",
+      "ワニ",
+      "オオカミ",
+      "タヌキ"
+    ],
+    "options_shuffle": true,
+    "answer": "カンガルー",
+    "answer-description": "Example: A group of kangaroos is called a mob., 和訳: カンガルーの群（む）れは「モブ」と呼（よ）ばれます。"
+  }
+]

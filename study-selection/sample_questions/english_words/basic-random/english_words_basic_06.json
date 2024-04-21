@@ -1,0 +1,77 @@
+[
+  {
+    "word": "Penguin",
+    "kana": "ペンギン",
+    "word_voice": true,
+    "options": [
+      "ペンギン",
+      "ウサギ",
+      "キリン",
+      "ゾウ",
+      "クマ"
+    ],
+    "options_shuffle": true,
+    "answer": "ペンギン",
+    "answer-description": "Example: Penguins cannot fly but are excellent swimmers., 和訳: ペンギン（ぺんぎん）は飛（と）ぶことはできませんが、優（すぐ）れた泳（およ）ぎ手（て）です。"
+  },
+  {
+    "word": "Moon",
+    "kana": "ツキ",
+    "word_voice": true,
+    "options": [
+      "ツキ",
+      "ホシ",
+      "タイヨウ",
+      "プラネット",
+      "アース"
+    ],
+    "options_shuffle": true,
+    "answer": "ツキ",
+    "answer-description": "Example: The moon orbits the Earth once every 27.3 days., 和訳: 月（つき）は27.3日（にち）ごとに地球（ちきゅう）を一周（いっしゅう）します。"
+  },
+  {
+    "word": "Glasses",
+    "kana": "メガネ",
+    "word_voice": true,
+    "options": [
+      "メガネ",
+      "ハット",
+      "シューズ",
+      "ベルト",
+      "ウォッチ"
+    ],
+    "options_shuffle": true,
+    "answer": "メガネ",
+    "answer-description": "Example: He wears glasses to see better., 和訳: 彼（かれ）はよく見（み）えるようにメガネ（めがね）をかけます。"
+  },
+  {
+    "word": "Rain",
+    "kana": "アメ",
+    "word_voice": true,
+    "options": [
+      "アメ",
+      "ユキ",
+      "カゼ",
+      "クモリ",
+      "ハレ"
+    ],
+    "options_shuffle": true,
+    "answer": "アメ",
+    "answer-description": "Example: When it rains, the streets get wet., 和訳: 雨（あめ）が降（ふ）ると、通（とお）りが濡（ぬ）れます。"
+  },
+  {
+    "word": "Flower",
+    "kana": "ハナ",
+    "word_voice": true,
+    "options": [
+      "ハナ",
+      "キ",
+      "クサ",
+      "ハ",
+      "タネ"
+    ],
+    "options_shuffle": true,
+    "answer": "ハナ",
+    "answer-description": "Example: The garden is full of beautiful flowers in spring., 和訳: 春（はる）には庭（にわ）が美（うつく）しい花（はな）でいっぱいです。"
+  }
+]

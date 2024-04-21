@@ -1,0 +1,62 @@
+[
+   {
+      "word": "犬",
+      "options": [
+         "いぬ",
+         "ねこ",
+         "うま",
+         "さる"
+      ],
+      "options_shuffle": true,
+      "answer": "いぬ",
+      "answer-description": "犬は人間の良い友達で、多くの家庭でペットとして飼われています。"
+   },
+   {
+      "word": "花",
+      "options": [
+         "はな",
+         "き",
+         "くさ",
+         "つち"
+      ],
+      "options_shuffle": true,
+      "answer": "はな",
+      "answer-description": "花は色や形が美しいです。春になるとたくさん咲きます。"
+   },
+   {
+      "word": "目",
+      "options": [
+         "め",
+         "はな",
+         "みみ",
+         "くち"
+      ],
+      "options_shuffle": true,
+      "answer": "め",
+      "answer-description": "目は見るための器官で、私たちの顔にあります。"
+   },
+   {
+      "word": "魚",
+      "options": [
+         "とり",
+         "うま",
+         "さかな",
+         "いぬ"
+      ],
+      "options_shuffle": true,
+      "answer": "さかな",
+      "answer-description": "魚は水中で生活する動物です。さまざまな種類がいます。"
+   },
+   {
+      "word": "口",
+      "options": [
+         "め",
+         "はな",
+         "みみ",
+         "くち"
+      ],
+      "options_shuffle": true,
+      "answer": "くち",
+      "answer-description": "口は食べ物を食べたり、話したりするために使います。"
+   }
+]

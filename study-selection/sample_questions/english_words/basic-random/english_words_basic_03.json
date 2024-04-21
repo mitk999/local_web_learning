@@ -1,0 +1,77 @@
+[
+  {
+    "word": "Fish",
+    "kana": "サカナ",
+    "word_voice": true,
+    "options": [
+      "サカナ",
+      "ネコ",
+      "イヌ",
+      "トリ",
+      "ウマ"
+    ],
+    "options_shuffle": true,
+    "answer": "サカナ",
+    "answer-description": "魚（さかな）は水中（すいちゅう）で生（い）きる動物（どうぶつ）です。彼らはひれを使（つか）って泳（およ）ぎます。魚は多様（たよう）な種類（しゅるい）が存在（そんざい）します。Example: He likes to go fishing on weekends."
+  },
+  {
+    "word": "Flower",
+    "kana": "ハナ",
+    "word_voice": true,
+    "options": [
+      "ハナ",
+      "キ",
+      "ハ",
+      "クサ",
+      "タネ"
+    ],
+    "options_shuffle": true,
+    "answer": "ハナ",
+    "answer-description": "花（はな）は植物（しょくぶつ）の生殖（せいしょく）部位（ぶい）です。多くの花には美（うつく）しい色（いろ）と香（かお）りがあります。花は観賞（かんしょう）用（よう）の他（ほか）、様々（さまざま）な文化的（ぶんかてき）な行事（ぎょうじ）で使（つか）われます。Example: She planted flowers in the garden last spring."
+  },
+  {
+    "word": "Moon",
+    "kana": "ツキ",
+    "word_voice": true,
+    "options": [
+      "ツキ",
+      "ホシ",
+      "タイヨウ",
+      "ホシ",
+      "クモ"
+    ],
+    "options_shuffle": true,
+    "answer": "ツキ",
+    "answer-description": "月（つき）は地球（ちきゅう）の唯一（ゆいいつ）の自然衛星（しぜんえいせい）です。それは夜空（よぞら）で明るく輝（かがや）き、潮（しお）の満ち引き（みちひき）に影響（えいきょう）を与（あた）えます。Example: The moon was full last night."
+  },
+  {
+    "word": "Tree",
+    "kana": "キ",
+    "word_voice": true,
+    "options": [
+      "キ",
+      "ハナ",
+      "クサ",
+      "サカナ",
+      "トリ"
+    ],
+    "options_shuffle": true,
+    "answer": "キ",
+    "answer-description": "木（き）は大型（おおがた）の植物（しょくぶつ）で、一般（いっぱん）に木質（もくしつ）の幹（かん）を持（も）ちます。木々（きぎ）は森林（しんりん）を形成（けいせい）し、多くの生物（せいぶつ）の生息地（せいそくち）となります。Example: There is an old tree in front of their house."
+  },
+  {
+    "word": "Mountain",
+    "kana": "ヤマ",
+    "word_voice": true,
+    "options": [
+      "ヤマ",
+      "カワ",
+      "ウミ",
+      "ミズ",
+      "タニ"
+    ],
+    "options_shuffle": true,
+    "answer": "ヤマ",
+    "answer-description": "山（やま）は地表（ちひょう）から高（たか）くそびえる自然（しぜん）の地形（ちけい）です。山はハイキングや登山（とざん）などのレクリエーション活動（かつどう）に人気（にんき）があります。Example: They went hiking in the mountains last weekend."
+  }
+]

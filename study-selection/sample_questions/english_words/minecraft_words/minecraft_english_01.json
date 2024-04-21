@@ -1,0 +1,82 @@
+[
+   {
+      "word":"block",
+      "word_voice":true,
+      "kana":"ぶろっく",
+      "options":[
+         "ブロック",
+         "木（き）",
+         "鉱石（こうせき）",
+         "ツール",
+         "建物（たてもの）",
+         "アイテム"
+      ],
+      "options_shuffle":true,
+      "answer":"ブロック",
+      "answer_description": "「block」はマインクラフトでよく使われる単語で、「ブロック」を意味します。例えば、「Place the block on the ground.」（ブロックを地面に置いてください。）のように使われます。"
+   },
+   {
+      "word":"crafting table",
+      "word_voice":true,
+      "kana":"くらふてぃんぐ てーぶる",
+      "options":[
+         "木工テーブル",
+         "クラフトテーブル",
+         "作業台",
+         "溶鉱炉",
+         "レッドストーン",
+         "ベッド"
+      ],
+      "options_shuffle":true,
+      "answer":"クラフトテーブル",
+      "answer_description": "「crafting table」はマインクラフトで使われるアイテムで、「クラフトテーブル」を意味します。例えば、「Craft some tools on the crafting table.」（クラフトテーブルで道具を作成してください。）のように使われます。"
+   },
+   {
+      "word":"mining",
+      "word_voice":true,
+      "kana":"こうせき さいくつ",
+      "options":[
+         "建築（けんちく）",
+         "鉱石採掘",
+         "釣り（つり）",
+         "農業（のうぎょう）",
+         "冒険（ぼうけん）",
+         "採掘（さいくつ）"
+      ],
+      "options_shuffle":true,
+      "answer":"鉱石採掘",
+      "answer_description": "「mining」はマインクラフトで行われる行為で、「鉱石採掘」を意味します。例えば、「I spent hours mining for diamonds.」（ダイヤモンドを採掘するために何時間も費やしました。）のように使われます。"
+   },
+   {
+      "word":"axe",
+      "word_voice":true,
+      "kana":"おの",
+      "options":[
+         "斧",
+         "鋸（のこぎり）",
+         "ハンマー",
+         "ハチェット",
+         "ドリル",
+         "ナイフ"
+      ],
+      "options_shuffle":true,
+      "answer":"斧",
+      "answer_description": "「axe」はマインクラフトでよく使われるアイテムで、「斧」を意味します。例えば、「Use the axe to chop down the tree.」（斧を使って木を切り倒してください。）のように使われます。"
+   },
+   {
+      "word":"pickaxe",
+      "word_voice":true,
+      "kana":"つるはし",
+      "options":[
+         "つるはし",
+         "スコップ",
+         "鎌（かま）",
+         "ピッケル",
+         "爪（つめ）",
+         "ハンマー"
+      ],
+      "options_shuffle":true,
+      "answer":"ピッケル",
+      "answer_description": "「pickaxe」はマインクラフトで使われるアイテムで、「ピッケル」を意味します。例えば、「Mine the diamond with the pickaxe.」（ピッケルでダイヤモンドを採掘してください。）のように使われます。"
+   }
+]

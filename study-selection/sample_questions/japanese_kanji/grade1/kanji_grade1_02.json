@@ -1,0 +1,62 @@
+[
+   {
+      "word": "木",
+      "options": [
+         "いし",
+         "き",
+         "はな",
+         "みず"
+      ],
+      "options_shuffle": true,
+      "answer": "き",
+      "answer-description": "木は自然の中で見ることができる植物です。公園や森にたくさんあります。"
+   },
+   {
+      "word": "雨",
+      "options": [
+         "あめ",
+         "ゆき",
+         "くもり",
+         "はれ"
+      ],
+      "options_shuffle": true,
+      "answer": "あめ",
+      "answer-description": "雨は空から水滴が降る天気です。植物に水を与える重要な役割を果たします。"
+   },
+   {
+      "word": "山",
+      "options": [
+         "かわ",
+         "やま",
+         "うみ",
+         "たに"
+      ],
+      "options_shuffle": true,
+      "answer": "やま",
+      "answer-description": "山は地形の一つで、頂上が高い場所にあります。ハイキングに人気の場所です。"
+   },
+   {
+      "word": "川",
+      "options": [
+         "やま",
+         "かわ",
+         "みち",
+         "うみ"
+      ],
+      "options_shuffle": true,
+      "answer": "かわ",
+      "answer-description": "川は水が流れる自然の水路です。川沿いでピクニックを楽しむ人も多いです。"
+   },
+   {
+      "word": "赤",
+      "options": [
+         "あお",
+         "しろ",
+         "あか",
+         "くろ"
+      ],
+      "options_shuffle": true,
+      "answer": "あか",
+      "answer-description": "赤は色の一つで、信号の赤は「止まれ」を意味します。"
+   }
+]

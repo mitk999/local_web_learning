@@ -1,0 +1,62 @@
+[
+   {
+      "word": "太陽",
+      "options": [
+         "つき",
+         "ほし",
+         "たいよう",
+         "くも"
+      ],
+      "options_shuffle": true,
+      "answer": "たいよう",
+      "answer-description": "太陽は私たちの星、地球から見える明るい光を放つ天体です。朝に東から昇り、夕方に西に沈みます。"
+   },
+   {
+      "word": "手",
+      "options": [
+         "あし",
+         "て",
+         "め",
+         "みみ"
+      ],
+      "options_shuffle": true,
+      "answer": "て",
+      "answer-description": "手は人の体の一部で、物をつかんだり、作業を行ったりするのに使います。"
+   },
+   {
+      "word": "足",
+      "options": [
+         "て",
+         "め",
+         "はな",
+         "あし"
+      ],
+      "options_shuffle": true,
+      "answer": "あし",
+      "answer-description": "足は歩くために使う体の部分で、靴をはいて保護します。"
+   },
+   {
+      "word": "耳",
+      "options": [
+         "はな",
+         "め",
+         "みみ",
+         "くち"
+      ],
+      "options_shuffle": true,
+      "answer": "みみ",
+      "answer-description": "耳は聞くための器官で、人や動物が音を感じ取るのに使います。"
+   },
+   {
+      "word": "鳥",
+      "options": [
+         "とり",
+         "うま",
+         "ねこ",
+         "いぬ"
+      ],
+      "options_shuffle": true,
+      "answer": "とり",
+      "answer-description": "鳥は羽を持ち、多くの種類が飛ぶことができる動物です。空を自由に飛び回ることが特徴です。"
+   }
+]

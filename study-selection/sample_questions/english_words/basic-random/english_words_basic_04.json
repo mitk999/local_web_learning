@@ -1,0 +1,77 @@
+[
+  {
+    "word": "School",
+    "kana": "ガッコウ",
+    "word_voice": true,
+    "options": [
+      "ガッコウ",
+      "ビョウイン",
+      "コンビニ",
+      "スーパー",
+      "エキ"
+    ],
+    "options_shuffle": true,
+    "answer": "ガッコウ",
+    "answer-description": "学校（がっこう）は、子供たちが学ぶ場所（ばしょ）です。教師（きょうし）が様々（さまざま）な科目（かもく）を教（おし）えます。Example: She goes to school by bus."
+  },
+  {
+    "word": "Hospital",
+    "kana": "ビョウイン",
+    "word_voice": true,
+    "options": [
+      "ビョウイン",
+      "ガッコウ",
+      "エキ",
+      "コンビニ",
+      "ホテル"
+    ],
+    "options_shuffle": true,
+    "answer": "ビョウイン",
+    "answer-description": "病院（びょういん）は、病気（びょうき）やけがの人（ひと）を治療（ちりょう）するための施設（しせつ）です。医者（いしゃ）や看護師（かんごし）が働（はたら）いています。Example: He is in the hospital for surgery."
+  },
+  {
+    "word": "Train",
+    "kana": "デンシャ",
+    "word_voice": true,
+    "options": [
+      "デンシャ",
+      "ジドウシャ",
+      "ジテンシャ",
+      "ヘリコプター",
+      "バス"
+    ],
+    "options_shuffle": true,
+    "answer": "デンシャ",
+    "answer-description": "電車（でんしゃ）は、レールの上を走（はし）る交通（こうつう）手段（しゅだん）です。多くの人（ひと）が通勤（つうきん）や通学（つうがく）に利用（りよう）します。Example: The train was crowded this morning."
+  },
+  {
+    "word": "Apple",
+    "kana": "リンゴ",
+    "word_voice": true,
+    "options": [
+      "リンゴ",
+      "バナナ",
+      "メロン",
+      "ミカン",
+      "スイカ"
+    ],
+    "options_shuffle": true,
+    "answer": "リンゴ",
+    "answer-description": "リンゴは赤（あか）や緑（みどり）、黄色（きいろ）の色（いろ）があり、甘（あま）い果物（くだもの）です。秋（あき）に収穫（しゅうかく）されます。Example: She ate an apple for lunch."
+  },
+  {
+    "word": "Computer",
+    "kana": "コンピュータ",
+    "word_voice": true,
+    "options": [
+      "コンピュータ",
+      "スマートフォン",
+      "タブレット",
+      "テレビ",
+      "ラジオ"
+    ],
+    "options_shuffle": true,
+    "answer": "コンピュータ",
+    "answer-description": "コンピュータは情報（じょうほう）を処理（しょり）する電子（でんし）機器（きき）です。仕事（しごと）、学習（がくしゅう）、娯楽（ごらく）など多目的（たもくてき）に使用（しよう）されます。Example: He uses a computer to work from home."
+  }
+]
