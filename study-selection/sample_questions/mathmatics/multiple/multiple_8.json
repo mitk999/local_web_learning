@@ -1,0 +1,162 @@
+{
+  "word": "8×1",
+  "word_voice": true,
+  "kana": "",
+  "options": [
+    "8",
+    "16",
+    "24",
+    "32",
+    "40",
+    "48",
+    "56",
+    "64",
+    "72"
+  ],
+  "options_shuffle": false,
+  "answer": "8"
+},
+{
+  "word": "8×2",
+  "word_voice": true,
+  "kana": "",
+  "options": [
+    "8",
+    "16",
+    "24",
+    "32",
+    "40",
+    "48",
+    "56",
+    "64",
+    "72"
+  ],
+  "options_shuffle": false,
+  "answer": "16"
+},
+{
+  "word": "8×3",
+  "word_voice": true,
+  "kana": "",
+  "options": [
+    "8",
+    "16",
+    "24",
+    "32",
+    "40",
+    "48",
+    "56",
+    "64",
+    "72"
+  ],
+  "options_shuffle": false,
+  "answer": "24"
+},
+{
+  "word": "8×4",
+  "word_voice": true,
+  "kana": "",
+  "options": [
+    "8",
+    "16",
+    "24",
+    "32",
+    "40",
+    "48",
+    "56",
+    "64",
+    "72"
+  ],
+  "options_shuffle": false,
+  "answer": "32"
+},
+{
+  "word": "8×5",
+  "word_voice": true,
+  "kana": "",
+  "options": [
+    "8",
+    "16",
+    "24",
+    "32",
+    "40",
+    "48",
+    "56",
+    "64",
+    "72"
+  ],
+  "options_shuffle": false,
+  "answer": "40"
+},
+{
+  "word": "8×6",
+  "word_voice": true,
+  "kana": "",
+  "options": [
+    "8",
+    "16",
+    "24",
+    "32",
+    "40",
+    "48",
+    "56",
+    "64",
+    "72"
+  ],
+  "options_shuffle": false,
+  "answer": "48"
+},
+{
+  "word": "8×7",
+  "word_voice": true,
+  "kana": "",
+  "options": [
+    "8",
+    "16",
+    "24",
+    "32",
+    "40",
+    "48",
+    "56",
+    "64",
+    "72"
+  ],
+  "options_shuffle": false,
+  "answer": "56"
+},
+{
+  "word": "8×8",
+  "word_voice": true,
+  "kana": "",
+  "options": [
+    "8",
+    "16",
+    "24",
+    "32",
+    "40",
+    "48",
+    "56",
+    "64",
+    "72"
+  ],
+  "options_shuffle": false,
+  "answer": "64"
+},
+{
+  "word": "8×9",
+  "word_voice": true,
+  "kana": "",
+  "options": [
+    "8",
+    "16",
+    "24",
+    "32",
+    "40",
+    "48",
+    "56",
+    "64",
+    "72"
+  ],
+  "options_shuffle": false,
+  "answer": "72"
+}

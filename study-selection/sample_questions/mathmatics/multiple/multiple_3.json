@@ -1,0 +1,162 @@
+{
+  "word": "3×1",
+  "word_voice": true,
+  "kana": "",
+  "options": [
+    "3",
+    "6",
+    "9",
+    "12",
+    "15",
+    "18",
+    "21",
+    "24",
+    "27"
+  ],
+  "options_shuffle": false,
+  "answer": "3"
+},
+{
+  "word": "3×2",
+  "word_voice": true,
+  "kana": "",
+  "options": [
+    "3",
+    "6",
+    "9",
+    "12",
+    "15",
+    "18",
+    "21",
+    "24",
+    "27"
+  ],
+  "options_shuffle": false,
+  "answer": "6"
+},
+{
+  "word": "3×3",
+  "word_voice": true,
+  "kana": "",
+  "options": [
+    "3",
+    "6",
+    "9",
+    "12",
+    "15",
+    "18",
+    "21",
+    "24",
+    "27"
+  ],
+  "options_shuffle": false,
+  "answer": "9"
+},
+{
+  "word": "3×4",
+  "word_voice": true,
+  "kana": "",
+  "options": [
+    "3",
+    "6",
+    "9",
+    "12",
+    "15",
+    "18",
+    "21",
+    "24",
+    "27"
+  ],
+  "options_shuffle": false,
+  "answer": "12"
+},
+{
+  "word": "3×5",
+  "word_voice": true,
+  "kana": "",
+  "options": [
+    "3",
+    "6",
+    "9",
+    "12",
+    "15",
+    "18",
+    "21",
+    "24",
+    "27"
+  ],
+  "options_shuffle": false,
+  "answer": "15"
+},
+{
+  "word": "3×6",
+  "word_voice": true,
+  "kana": "",
+  "options": [
+    "3",
+    "6",
+    "9",
+    "12",
+    "15",
+    "18",
+    "21",
+    "24",
+    "27"
+  ],
+  "options_shuffle": false,
+  "answer": "18"
+},
+{
+  "word": "3×7",
+  "word_voice": true,
+  "kana": "",
+  "options": [
+    "3",
+    "6",
+    "9",
+    "12",
+    "15",
+    "18",
+    "21",
+    "24",
+    "27"
+  ],
+  "options_shuffle": false,
+  "answer": "21"
+},
+{
+  "word": "3×8",
+  "word_voice": true,
+  "kana": "",
+  "options": [
+    "3",
+    "6",
+    "9",
+    "12",
+    "15",
+    "18",
+    "21",
+    "24",
+    "27"
+  ],
+  "options_shuffle": false,
+  "answer": "24"
+},
+{
+  "word": "3×9",
+  "word_voice": true,
+  "kana": "",
+  "options": [
+    "3",
+    "6",
+    "9",
+    "12",
+    "15",
+    "18",
+    "21",
+    "24",
+    "27"
+  ],
+  "options_shuffle": false,
+  "answer": "27"
+}

@@ -1,0 +1,162 @@
+{
+  "word": "9×1",
+  "word_voice": true,
+  "kana": "",
+  "options": [
+    "9",
+    "18",
+    "27",
+    "36",
+    "45",
+    "54",
+    "63",
+    "72",
+    "81"
+  ],
+  "options_shuffle": false,
+  "answer": "9"
+},
+{
+  "word": "9×2",
+  "word_voice": true,
+  "kana": "",
+  "options": [
+    "9",
+    "18",
+    "27",
+    "36",
+    "45",
+    "54",
+    "63",
+    "72",
+    "81"
+  ],
+  "options_shuffle": false,
+  "answer": "18"
+},
+{
+  "word": "9×3",
+  "word_voice": true,
+  "kana": "",
+  "options": [
+    "9",
+    "18",
+    "27",
+    "36",
+    "45",
+    "54",
+    "63",
+    "72",
+    "81"
+  ],
+  "options_shuffle": false,
+  "answer": "27"
+},
+{
+  "word": "9×4",
+  "word_voice": true,
+  "kana": "",
+  "options": [
+    "9",
+    "18",
+    "27",
+    "36",
+    "45",
+    "54",
+    "63",
+    "72",
+    "81"
+  ],
+  "options_shuffle": false,
+  "answer": "36"
+},
+{
+  "word": "9×5",
+  "word_voice": true,
+  "kana": "",
+  "options": [
+    "9",
+    "18",
+    "27",
+    "36",
+    "45",
+    "54",
+    "63",
+    "72",
+    "81"
+  ],
+  "options_shuffle": false,
+  "answer": "45"
+},
+{
+  "word": "9×6",
+  "word_voice": true,
+  "kana": "",
+  "options": [
+    "9",
+    "18",
+    "27",
+    "36",
+    "45",
+    "54",
+    "63",
+    "72",
+    "81"
+  ],
+  "options_shuffle": false,
+  "answer": "54"
+},
+{
+  "word": "9×7",
+  "word_voice": true,
+  "kana": "",
+  "options": [
+    "9",
+    "18",
+    "27",
+    "36",
+    "45",
+    "54",
+    "63",
+    "72",
+    "81"
+  ],
+  "options_shuffle": false,
+  "answer": "63"
+},
+{
+  "word": "9×8",
+  "word_voice": true,
+  "kana": "",
+  "options": [
+    "9",
+    "18",
+    "27",
+    "36",
+    "45",
+    "54",
+    "63",
+    "72",
+    "81"
+  ],
+  "options_shuffle": false,
+  "answer": "72"
+},
+{
+  "word": "9×9",
+  "word_voice": true,
+  "kana": "",
+  "options": [
+    "9",
+    "18",
+    "27",
+    "36",
+    "45",
+    "54",
+    "63",
+    "72",
+    "81"
+  ],
+  "options_shuffle": false,
+  "answer": "81"
+}

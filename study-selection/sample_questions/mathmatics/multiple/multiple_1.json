@@ -1,0 +1,162 @@
+{
+  "word": "1×1",
+  "word_voice": true,
+  "kana": "",
+  "options": [
+    "1",
+    "2",
+    "3",
+    "4",
+    "5",
+    "6",
+    "7",
+    "8",
+    "9"
+  ],
+  "options_shuffle": false,
+  "answer": "1"
+},
+{
+  "word": "1×2",
+  "word_voice": true,
+  "kana": "",
+  "options": [
+    "1",
+    "2",
+    "3",
+    "4",
+    "5",
+    "6",
+    "7",
+    "8",
+    "9"
+  ],
+  "options_shuffle": false,
+  "answer": "2"
+},
+{
+  "word": "1×3",
+  "word_voice": true,
+  "kana": "",
+  "options": [
+    "1",
+    "2",
+    "3",
+    "4",
+    "5",
+    "6",
+    "7",
+    "8",
+    "9"
+  ],
+  "options_shuffle": false,
+  "answer": "3"
+},
+{
+  "word": "1×4",
+  "word_voice": true,
+  "kana": "",
+  "options": [
+    "1",
+    "2",
+    "3",
+    "4",
+    "5",
+    "6",
+    "7",
+    "8",
+    "9"
+  ],
+  "options_shuffle": false,
+  "answer": "4"
+},
+{
+  "word": "1×5",
+  "word_voice": true,
+  "kana": "",
+  "options": [
+    "1",
+    "2",
+    "3",
+    "4",
+    "5",
+    "6",
+    "7",
+    "8",
+    "9"
+  ],
+  "options_shuffle": false,
+  "answer": "5"
+},
+{
+  "word": "1×6",
+  "word_voice": true,
+  "kana": "",
+  "options": [
+    "1",
+    "2",
+    "3",
+    "4",
+    "5",
+    "6",
+    "7",
+    "8",
+    "9"
+  ],
+  "options_shuffle": false,
+  "answer": "6"
+},
+{
+  "word": "1×7",
+  "word_voice": true,
+  "kana": "",
+  "options": [
+    "1",
+    "2",
+    "3",
+    "4",
+    "5",
+    "6",
+    "7",
+    "8",
+    "9"
+  ],
+  "options_shuffle": false,
+  "answer": "7"
+},
+{
+  "word": "1×8",
+  "word_voice": true,
+  "kana": "",
+  "options": [
+    "1",
+    "2",
+    "3",
+    "4",
+    "5",
+    "6",
+    "7",
+    "8",
+    "9"
+  ],
+  "options_shuffle": false,
+  "answer": "8"
+},
+{
+  "word": "1×9",
+  "word_voice": true,
+  "kana": "",
+  "options": [
+    "1",
+    "2",
+    "3",
+    "4",
+    "5",
+    "6",
+    "7",
+    "8",
+    "9"
+  ],
+  "options_shuffle": false,
+  "answer": "9"
+}
