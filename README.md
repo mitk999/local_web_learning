@@ -4,7 +4,7 @@ only to download and open with web browser and bookmark.
 2. click "learning" link  what you want to learn.
 3. you can play.but some learning require question json file. There are some default question "sample_questions" under each folder. You can use it. And if you want to customize questions, you can add json file.
 
-# what is study_for_children
+# what is local_web_learning
 This repository work in local PC. This program don't communicate with server over internet.
 
 # Who uses this?
