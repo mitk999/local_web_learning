@@ -9,8 +9,8 @@ REM ダウンロードフォルダのパスを指定します
 set DOWNLOAD_FOLDER=%USERPROFILE%\Downloads
 
 REM 出力フォルダが存在しない場合は作成します
-if not exist "../logs" (
-    mkdir "../logs"
+if not exist "./output" (
+    mkdir "./output"
 )
 
 REM 出力ファイルが既に存在する場合は追記モードで開きます
