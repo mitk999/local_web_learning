@@ -1,0 +1,164 @@
+[
+  {
+    "word": "4+1",
+    "word_voice": true,
+    "kana": "",
+    "options": [
+      "5",
+      "6",
+      "7",
+      "8",
+      "9",
+      "10",
+      "11",
+      "12",
+      "13"
+    ],
+    "options_shuffle": false,
+    "answer": "5"
+  },
+  {
+    "word": "4+2",
+    "word_voice": true,
+    "kana": "",
+    "options": [
+      "5",
+      "6",
+      "7",
+      "8",
+      "9",
+      "10",
+      "11",
+      "12",
+      "13"
+    ],
+    "options_shuffle": false,
+    "answer": "6"
+  },
+  {
+    "word": "4+3",
+    "word_voice": true,
+    "kana": "",
+    "options": [
+      "5",
+      "6",
+      "7",
+      "8",
+      "9",
+      "10",
+      "11",
+      "12",
+      "13"
+    ],
+    "options_shuffle": false,
+    "answer": "7"
+  },
+  {
+    "word": "4+4",
+    "word_voice": true,
+    "kana": "",
+    "options": [
+      "5",
+      "6",
+      "7",
+      "8",
+      "9",
+      "10",
+      "11",
+      "12",
+      "13"
+    ],
+    "options_shuffle": false,
+    "answer": "8"
+  },
+  {
+    "word": "4+5",
+    "word_voice": true,
+    "kana": "",
+    "options": [
+      "5",
+      "6",
+      "7",
+      "8",
+      "9",
+      "10",
+      "11",
+      "12",
+      "13"
+    ],
+    "options_shuffle": false,
+    "answer": "9"
+  },
+  {
+    "word": "4+6",
+    "word_voice": true,
+    "kana": "",
+    "options": [
+      "5",
+      "6",
+      "7",
+      "8",
+      "9",
+      "10",
+      "11",
+      "12",
+      "13"
+    ],
+    "options_shuffle": false,
+    "answer": "10"
+  },
+  {
+    "word": "4+7",
+    "word_voice": true,
+    "kana": "",
+    "options": [
+      "5",
+      "6",
+      "7",
+      "8",
+      "9",
+      "10",
+      "11",
+      "12",
+      "13"
+    ],
+    "options_shuffle": false,
+    "answer": "11"
+  },
+  {
+    "word": "4+8",
+    "word_voice": true,
+    "kana": "",
+    "options": [
+      "5",
+      "6",
+      "7",
+      "8",
+      "9",
+      "10",
+      "11",
+      "12",
+      "13"
+    ],
+    "options_shuffle": false,
+    "answer": "12"
+  },
+  {
+    "word": "4+9",
+    "word_voice": true,
+    "kana": "",
+    "options": [
+      "5",
+      "6",
+      "7",
+      "8",
+      "9",
+      "10",
+      "11",
+      "12",
+      "13"
+    ],
+    "options_shuffle": false,
+    "answer": "13"
+  }
+]

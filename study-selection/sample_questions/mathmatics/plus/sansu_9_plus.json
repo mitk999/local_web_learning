@@ -1,0 +1,164 @@
+[
+  {
+    "word": "9+1",
+    "word_voice": true,
+    "kana": "",
+    "options": [
+      "10",
+      "11",
+      "12",
+      "13",
+      "14",
+      "15",
+      "16",
+      "17",
+      "18"
+    ],
+    "options_shuffle": false,
+    "answer": "10"
+  },
+  {
+    "word": "9+2",
+    "word_voice": true,
+    "kana": "",
+    "options": [
+      "10",
+      "11",
+      "12",
+      "13",
+      "14",
+      "15",
+      "16",
+      "17",
+      "18"
+    ],
+    "options_shuffle": false,
+    "answer": "11"
+  },
+  {
+    "word": "9+3",
+    "word_voice": true,
+    "kana": "",
+    "options": [
+      "10",
+      "11",
+      "12",
+      "13",
+      "14",
+      "15",
+      "16",
+      "17",
+      "18"
+    ],
+    "options_shuffle": false,
+    "answer": "12"
+  },
+  {
+    "word": "9+4",
+    "word_voice": true,
+    "kana": "",
+    "options": [
+      "10",
+      "11",
+      "12",
+      "13",
+      "14",
+      "15",
+      "16",
+      "17",
+      "18"
+    ],
+    "options_shuffle": false,
+    "answer": "13"
+  },
+  {
+    "word": "9+5",
+    "word_voice": true,
+    "kana": "",
+    "options": [
+      "10",
+      "11",
+      "12",
+      "13",
+      "14",
+      "15",
+      "16",
+      "17",
+      "18"
+    ],
+    "options_shuffle": false,
+    "answer": "14"
+  },
+  {
+    "word": "9+6",
+    "word_voice": true,
+    "kana": "",
+    "options": [
+      "10",
+      "11",
+      "12",
+      "13",
+      "14",
+      "15",
+      "16",
+      "17",
+      "18"
+    ],
+    "options_shuffle": false,
+    "answer": "15"
+  },
+  {
+    "word": "9+7",
+    "word_voice": true,
+    "kana": "",
+    "options": [
+      "10",
+      "11",
+      "12",
+      "13",
+      "14",
+      "15",
+      "16",
+      "17",
+      "18"
+    ],
+    "options_shuffle": false,
+    "answer": "16"
+  },
+  {
+    "word": "9+8",
+    "word_voice": true,
+    "kana": "",
+    "options": [
+      "10",
+      "11",
+      "12",
+      "13",
+      "14",
+      "15",
+      "16",
+      "17",
+      "18"
+    ],
+    "options_shuffle": false,
+    "answer": "17"
+  },
+  {
+    "word": "9+9",
+    "word_voice": true,
+    "kana": "",
+    "options": [
+      "10",
+      "11",
+      "12",
+      "13",
+      "14",
+      "15",
+      "16",
+      "17",
+      "18"
+    ],
+    "options_shuffle": false,
+    "answer": "18"
+  }
+]
