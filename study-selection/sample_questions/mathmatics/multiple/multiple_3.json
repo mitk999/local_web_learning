@@ -1,162 +1,173 @@
-{
-  "word": "3×1",
-  "word_voice": true,
-  "kana": "",
-  "options": [
-    "3",
-    "6",
-    "9",
-    "12",
-    "15",
-    "18",
-    "21",
-    "24",
-    "27"
-  ],
-  "options_shuffle": false,
-  "answer": "3"
-},
-{
-  "word": "3×2",
-  "word_voice": true,
-  "kana": "",
-  "options": [
-    "3",
-    "6",
-    "9",
-    "12",
-    "15",
-    "18",
-    "21",
-    "24",
-    "27"
-  ],
-  "options_shuffle": false,
-  "answer": "6"
-},
-{
-  "word": "3×3",
-  "word_voice": true,
-  "kana": "",
-  "options": [
-    "3",
-    "6",
-    "9",
-    "12",
-    "15",
-    "18",
-    "21",
-    "24",
-    "27"
-  ],
-  "options_shuffle": false,
-  "answer": "9"
-},
-{
-  "word": "3×4",
-  "word_voice": true,
-  "kana": "",
-  "options": [
-    "3",
-    "6",
-    "9",
-    "12",
-    "15",
-    "18",
-    "21",
-    "24",
-    "27"
-  ],
-  "options_shuffle": false,
-  "answer": "12"
-},
-{
-  "word": "3×5",
-  "word_voice": true,
-  "kana": "",
-  "options": [
-    "3",
-    "6",
-    "9",
-    "12",
-    "15",
-    "18",
-    "21",
-    "24",
-    "27"
-  ],
-  "options_shuffle": false,
-  "answer": "15"
-},
-{
-  "word": "3×6",
-  "word_voice": true,
-  "kana": "",
-  "options": [
-    "3",
-    "6",
-    "9",
-    "12",
-    "15",
-    "18",
-    "21",
-    "24",
-    "27"
-  ],
-  "options_shuffle": false,
-  "answer": "18"
-},
-{
-  "word": "3×7",
-  "word_voice": true,
-  "kana": "",
-  "options": [
-    "3",
-    "6",
-    "9",
-    "12",
-    "15",
-    "18",
-    "21",
-    "24",
-    "27"
-  ],
-  "options_shuffle": false,
-  "answer": "21"
-},
-{
-  "word": "3×8",
-  "word_voice": true,
-  "kana": "",
-  "options": [
-    "3",
-    "6",
-    "9",
-    "12",
-    "15",
-    "18",
-    "21",
-    "24",
-    "27"
-  ],
-  "options_shuffle": false,
-  "answer": "24"
-},
-{
-  "word": "3×9",
-  "word_voice": true,
-  "kana": "",
-  "options": [
-    "3",
-    "6",
-    "9",
-    "12",
-    "15",
-    "18",
-    "21",
-    "24",
-    "27"
-  ],
-  "options_shuffle": false,
-  "answer": "27"
-}
+[
+  {
+    "word": "3×1",
+    "word_voice": true,
+    "kana": "",
+    "options": [
+      "3",
+      "6",
+      "9",
+      "12",
+      "15",
+      "18",
+      "21",
+      "24",
+      "27"
+    ],
+    "options_shuffle": false,
+    "answer": "3",
+    "answer_description": "<table><tr><td>1. ①②③</td></tr></table>"
+  },
+  {
+    "word": "3×2",
+    "word_voice": true,
+    "kana": "",
+    "options": [
+      "3",
+      "6",
+      "9",
+      "12",
+      "15",
+      "18",
+      "21",
+      "24",
+      "27"
+    ],
+    "options_shuffle": false,
+    "answer": "6",
+    "answer_description": "<table><tr><td>1. ①②③</td></tr><tr><td>2. ④⑤⑥</td></tr></table>"
+  },
+  {
+    "word": "3×3",
+    "word_voice": true,
+    "kana": "",
+    "options": [
+      "3",
+      "6",
+      "9",
+      "12",
+      "15",
+      "18",
+      "21",
+      "24",
+      "27"
+    ],
+    "options_shuffle": false,
+    "answer": "9",
+    "answer_description": "<table><tr><td>1. ①②③</td></tr><tr><td>2. ④⑤⑥</td></tr><tr><td>3. ⑦⑧⑨</td></tr></table>"
+  },
+  {
+    "word": "3×4",
+    "word_voice": true,
+    "kana": "",
+    "options": [
+      "3",
+      "6",
+      "9",
+      "12",
+      "15",
+      "18",
+      "21",
+      "24",
+      "27"
+    ],
+    "options_shuffle": false,
+    "answer": "12",
+    "answer_description": "<table><tr><td>1. ①②③</td></tr><tr><td>2. ④⑤⑥</td></tr><tr><td>3. ⑦⑧⑨</td></tr><tr><td>4. ⑩⑪⑫</td></tr></table>"
+  },
+  {
+    "word": "3×5",
+    "word_voice": true,
+    "kana": "",
+    "options": [
+      "3",
+      "6",
+      "9",
+      "12",
+      "15",
+      "18",
+      "21",
+      "24",
+      "27"
+    ],
+    "options_shuffle": false,
+    "answer": "15",
+    "answer_description": "<table><tr><td>1. ①②③</td></tr><tr><td>2. ④⑤⑥</td></tr><tr><td>3. ⑦⑧⑨</td></tr><tr><td>4. ⑩⑪⑫</td></tr><tr><td>5. ⑬⑭⑮</td></tr></table>"
+  },
+  {
+    "word": "3×6",
+    "word_voice": true,
+    "kana": "",
+    "options": [
+      "3",
+      "6",
+      "9",
+      "12",
+      "15",
+      "18",
+      "21",
+      "24",
+      "27"
+    ],
+    "options_shuffle": false,
+    "answer": "18",
+    "answer_description": "<table><tr><td>1. ①②③</td></tr><tr><td>2. ④⑤⑥</td></tr><tr><td>3. ⑦⑧⑨</td></tr><tr><td>4. ⑩⑪⑫</td></tr><tr><td>5. ⑬⑭⑮</td></tr><tr><td>6. ⑯⑰⑱</td></tr></table>"
+  },
+  {
+    "word": "3×7",
+    "word_voice": true,
+    "kana": "",
+    "options": [
+      "3",
+      "6",
+      "9",
+      "12",
+      "15",
+      "18",
+      "21",
+      "24",
+      "27"
+    ],
+    "options_shuffle": false,
+    "answer": "21",
+    "answer_description": "<table><tr><td>1. ①②③</td></tr><tr><td>2. ④⑤⑥</td></tr><tr><td>3. ⑦⑧⑨</td></tr><tr><td>4. ⑩⑪⑫</td></tr><tr><td>5. ⑬⑭⑮</td></tr><tr><td>6. ⑯⑰⑱</td></tr><tr><td>7. ⑲⑳㉑</td></tr></table>"
+  },
+  {
+    "word": "3×8",
+    "word_voice": true,
+    "kana": "",
+    "options": [
+      "3",
+      "6",
+      "9",
+      "12",
+      "15",
+      "18",
+      "21",
+      "24",
+      "27"
+    ],
+    "options_shuffle": false,
+    "answer": "24",
+    "answer_description": "<table><tr><td>1. ①②③</td></tr><tr><td>2. ④⑤⑥</td></tr><tr><td>3. ⑦⑧⑨</td></tr><tr><td>4. ⑩⑪⑫</td></tr><tr><td>5. ⑬⑭⑮</td></tr><tr><td>6. ⑯⑰⑱</td></tr><tr><td>7. ⑲⑳㉑</td></tr><tr><td>8. ㉒㉓㉔</td></tr></table>"
+  },
+  {
+    "word": "3×9",
+    "word_voice": true,
+    "kana": "",
+    "options": [
+      "3",
+      "6",
+      "9",
+      "12",
+      "15",
+      "18",
+      "21",
+      "24",
+      "27"
+    ],
+    "options_shuffle": false,
+    "answer": "27",
+    "answer_description": "<table><tr><td>1. ①②③</td></tr><tr><td>2. ④⑤⑥</td></tr><tr><td>3. ⑦⑧⑨</td></tr><tr><td>4. ⑩⑪⑫</td></tr><tr><td>5. ⑬⑭⑮</td></tr><tr><td>6. ⑯⑰⑱</td></tr><tr><td>7. ⑲⑳㉑</td></tr><tr><td>8. ㉒㉓㉔</td></tr><tr><td>9. ㉕㉖㉗</td></tr></table>"
+  }
+]

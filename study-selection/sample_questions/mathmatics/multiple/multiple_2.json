@@ -1,164 +1,173 @@
 [
-   {
-      "word":"2×1",
-      "word_voice":true,
-      "kana":"",
-      "options":[
-         "2",
-         "4",
-         "6",
-         "8",
-         "10",
-         "12",
-         "14",
-         "16",
-         "18"
-      ],
-      "options_shuffle":false,
-      "answer":"2"
-   },
-   {
-      "word":"2×2",
-      "word_voice":true,
-      "kana":"",
-      "options":[
-         "2",
-         "4",
-         "6",
-         "8",
-         "10",
-         "12",
-         "14",
-         "16",
-         "18"
-      ],
-      "options_shuffle":false,
-      "answer":"4"
-   },
-   {
-      "word":"2×3",
-      "word_voice":true,
-      "kana":"",
-      "options":[
-         "2",
-         "4",
-         "6",
-         "8",
-         "10",
-         "12",
-         "14",
-         "16",
-         "18"
-      ],
-      "options_shuffle":false,
-      "answer":"6"
-   },
-   {
-      "word":"2×4",
-      "word_voice":true,
-      "kana":"",
-      "options":[
-         "2",
-         "4",
-         "6",
-         "8",
-         "10",
-         "12",
-         "14",
-         "16",
-         "18"
-      ],
-      "options_shuffle":false,
-      "answer":"8"
-   },
-   {
-      "word":"2×5",
-      "word_voice":true,
-      "kana":"",
-      "options":[
-         "2",
-         "4",
-         "6",
-         "8",
-         "10",
-         "12",
-         "14",
-         "16",
-         "18"
-      ],
-      "options_shuffle":false,
-      "answer":"10"
-   },
-   {
-      "word":"2×6",
-      "word_voice":true,
-      "kana":"",
-      "options":[
-         "2",
-         "4",
-         "6",
-         "8",
-         "10",
-         "12",
-         "14",
-         "16",
-         "18"
-      ],
-      "options_shuffle":false,
-      "answer":"12"
-   },
-   {
-      "word":"2×7",
-      "word_voice":true,
-      "kana":"",
-      "options":[
-         "2",
-         "4",
-         "6",
-         "8",
-         "10",
-         "12",
-         "14",
-         "16",
-         "18"
-      ],
-      "options_shuffle":false,
-      "answer":"14"
-   },
-   {
-      "word":"2×8",
-      "word_voice":true,
-      "kana":"",
-      "options":[
-         "2",
-         "4",
-         "6",
-         "8",
-         "10",
-         "12",
-         "14",
-         "16",
-         "18"
-      ],
-      "options_shuffle":false,
-      "answer":"16"
-   },
-   {
-      "word":"2×9",
-      "word_voice":true,
-      "kana":"",
-      "options":[
-         "2",
-         "4",
-         "6",
-         "8",
-         "10",
-         "12",
-         "14",
-         "16",
-         "18"
-      ],
-      "options_shuffle":false,
-      "answer":"18"
-   }
+  {
+    "word": "2×1",
+    "word_voice": true,
+    "kana": "",
+    "options": [
+      "2",
+      "4",
+      "6",
+      "8",
+      "10",
+      "12",
+      "14",
+      "16",
+      "18"
+    ],
+    "options_shuffle": false,
+    "answer": "2",
+    "answer_description": "<table><tr><td>1. ①②</td></tr></table>"
+  },
+  {
+    "word": "2×2",
+    "word_voice": true,
+    "kana": "",
+    "options": [
+      "2",
+      "4",
+      "6",
+      "8",
+      "10",
+      "12",
+      "14",
+      "16",
+      "18"
+    ],
+    "options_shuffle": false,
+    "answer": "4",
+    "answer_description": "<table><tr><td>1. ①②</td></tr><tr><td>2. ③④</td></tr></table>"
+  },
+  {
+    "word": "2×3",
+    "word_voice": true,
+    "kana": "",
+    "options": [
+      "2",
+      "4",
+      "6",
+      "8",
+      "10",
+      "12",
+      "14",
+      "16",
+      "18"
+    ],
+    "options_shuffle": false,
+    "answer": "6",
+    "answer_description": "<table><tr><td>1. ①②</td></tr><tr><td>2. ③④</td></tr><tr><td>3. ⑤⑥</td></tr></table>"
+  },
+  {
+    "word": "2×4",
+    "word_voice": true,
+    "kana": "",
+    "options": [
+      "2",
+      "4",
+      "6",
+      "8",
+      "10",
+      "12",
+      "14",
+      "16",
+      "18"
+    ],
+    "options_shuffle": false,
+    "answer": "8",
+    "answer_description": "<table><tr><td>1. ①②</td></tr><tr><td>2. ③④</td></tr><tr><td>3. ⑤⑥</td></tr><tr><td>4. ⑦⑧</td></tr></table>"
+  },
+  {
+    "word": "2×5",
+    "word_voice": true,
+    "kana": "",
+    "options": [
+      "2",
+      "4",
+      "6",
+      "8",
+      "10",
+      "12",
+      "14",
+      "16",
+      "18"
+    ],
+    "options_shuffle": false,
+    "answer": "10",
+    "answer_description": "<table><tr><td>1. ①②</td></tr><tr><td>2. ③④</td></tr><tr><td>3. ⑤⑥</td></tr><tr><td>4. ⑦⑧</td></tr><tr><td>5. ⑨⑩</td></tr></table>"
+  },
+  {
+    "word": "2×6",
+    "word_voice": true,
+    "kana": "",
+    "options": [
+      "2",
+      "4",
+      "6",
+      "8",
+      "10",
+      "12",
+      "14",
+      "16",
+      "18"
+    ],
+    "options_shuffle": false,
+    "answer": "12",
+    "answer_description": "<table><tr><td>1. ①②</td></tr><tr><td>2. ③④</td></tr><tr><td>3. ⑤⑥</td></tr><tr><td>4. ⑦⑧</td></tr><tr><td>5. ⑨⑩</td></tr><tr><td>6. ⑪⑫</td></tr></table>"
+  },
+  {
+    "word": "2×7",
+    "word_voice": true,
+    "kana": "",
+    "options": [
+      "2",
+      "4",
+      "6",
+      "8",
+      "10",
+      "12",
+      "14",
+      "16",
+      "18"
+    ],
+    "options_shuffle": false,
+    "answer": "14",
+    "answer_description": "<table><tr><td>1. ①②</td></tr><tr><td>2. ③④</td></tr><tr><td>3. ⑤⑥</td></tr><tr><td>4. ⑦⑧</td></tr><tr><td>5. ⑨⑩</td></tr><tr><td>6. ⑪⑫</td></tr><tr><td>7. ⑬⑭</td></tr></table>"
+  },
+  {
+    "word": "2×8",
+    "word_voice": true,
+    "kana": "",
+    "options": [
+      "2",
+      "4",
+      "6",
+      "8",
+      "10",
+      "12",
+      "14",
+      "16",
+      "18"
+    ],
+    "options_shuffle": false,
+    "answer": "16",
+    "answer_description": "<table><tr><td>1. ①②</td></tr><tr><td>2. ③④</td></tr><tr><td>3. ⑤⑥</td></tr><tr><td>4. ⑦⑧</td></tr><tr><td>5. ⑨⑩</td></tr><tr><td>6. ⑪⑫</td></tr><tr><td>7. ⑬⑭</td></tr><tr><td>8. ⑮⑯</td></tr></table>"
+  },
+  {
+    "word": "2×9",
+    "word_voice": true,
+    "kana": "",
+    "options": [
+      "2",
+      "4",
+      "6",
+      "8",
+      "10",
+      "12",
+      "14",
+      "16",
+      "18"
+    ],
+    "options_shuffle": false,
+    "answer": "18",
+    "answer_description": "<table><tr><td>1. ①②</td></tr><tr><td>2. ③④</td></tr><tr><td>3. ⑤⑥</td></tr><tr><td>4. ⑦⑧</td></tr><tr><td>5. ⑨⑩</td></tr><tr><td>6. ⑪⑫</td></tr><tr><td>7. ⑬⑭</td></tr><tr><td>8. ⑮⑯</td></tr><tr><td>9. ⑰⑱</td></tr></table>"
+  }
 ]
