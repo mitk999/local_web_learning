@@ -69,10 +69,14 @@
                     const timestamp = new Date(row.split(',')[0]);
                     return timestamp >= startDate && timestamp <= endDate;
                 });
-
+                const sortedRows = filteredRows.sort((a, b) => {
+                    const timestampA = new Date(a.split(',')[0]);
+                    const timestampB = new Date(b.split(',')[0]);
+                    return timestampA - timestampB;
+                });
                 // データの抽出と集計
                 const data = {};
-                filteredRows.forEach(row => {
+                sortedRows.forEach(row => {
                     const columns = row.split(',');
                     const timestamp = columns[0];
                     const problemName = columns[1];
@@ -102,7 +106,7 @@
                 window.myChart = new Chart(ctx, {
                     type: 'line',
                     data: {
-                        labels: filteredRows.map(row => row.split(',')[0]), // 時間をラベルに設定?
+                        labels: sortedRows.map(row => row.split(',')[0]), // 時間をラベルに設定?
                         datasets: datasets
                     },
                     options: {
@@ -134,7 +138,7 @@
             reader.onload = function(e) {
                 const csv = e.target.result;
                 const lines = csv.split('\n')
-                const data = lines.slice(1).map(line => {
+                const data = lines.map(line => {
                   const values = line.split(',');
                   return {
                     date: values[0],
