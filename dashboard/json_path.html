@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Text File to HTML Table</title>
+<style>
+    table {
+        border-collapse: collapse;
+        width: 100%;
+    }
+    th, td {
+        border: 1px solid #dddddd;
+        text-align: left;
+        padding: 8px;
+    }
+    th {
+        background-color: #f2f2f2;
+    }
+</style>
+</head>
+<body>
+
+<input type="file" id="fileInput" accept=".txt">
+<div id="tableContainer"></div>
+
+<script>
+    document.getElementById('fileInput').addEventListener('change', function(event) {
+        const file = event.target.files[0];
+        const reader = new FileReader();
+
+        reader.onload = function(e) {
+            const tableData = parseTextToTable(e.target.result);
+            displayTable(tableData);
+        };
+
+        reader.readAsText(file);
+    });
+
+    function parseTextToTable(text) {
+        const lines = text.split('\n');
+        // const filtered_lines = lines.filter(element => element.indexOf('\.') === -1);
+        const tableData = lines.map(line => {
+            const columns = line.split('\\');
+            // "local_web_learning"という文字列の手前のパスを消去
+            var local_web_learning_index = 0
+            columns.forEach((item, i) => {
+              if (item.indexOf('local_web_learning') !== -1){
+                local_web_learning_index = i
+              }
+            });
+            const filteredColumns  = columns.slice(local_web_learning_index+1)
+            return filteredColumns.map(column => `<td>${column}</td>`).join('');
+        });
+        return tableData;
+    }
+
+    function displayTable(data) {
+        const tableContainer = document.getElementById('tableContainer');
+        tableContainer.innerHTML = `
+            <table>
+                <thead>
+                    <tr>
+                        <th>File Path</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    ${data.map(row => `<tr>${row}</tr>`).join('')}
+                </tbody>
+            </table>
+        `;
+    }
+</script>
+
+</body>
+</html>
