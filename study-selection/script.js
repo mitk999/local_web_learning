@@ -5,13 +5,13 @@ const scoreElement = document.getElementById("score");
 const fileUpload = document.getElementById("file-upload");
 const nextButton = document.getElementById("next-button");
 nextButton.addEventListener("click", moveToNextQuestion);
-
+nextButton.disabled=true;
 const correctSound = document.getElementById('correct-sound');
-correctSound.volume=0.8;
+correctSound.volume=0.6;
 const incorrectSound = document.getElementById('incorrect-sound');
-incorrectSound.volume=0.8;
+incorrectSound.volume=0.6;
 const levelupSound = document.getElementById('levelup-sound');
-levelupSound.volume=0.2;
+levelupSound.volume=0.15;
 
 let filename = '';
 let questions = [];
@@ -66,6 +66,7 @@ function showQuestion(question) {
         button.addEventListener("click", () => checkAnswer(option));
         optionsContainer.appendChild(button);
     });
+    nextButton.disabled = true;
 }
 
 function checkAnswer(selectedOption) {
@@ -92,9 +93,8 @@ function checkAnswer(selectedOption) {
 
     //後処理
     var optionElements = document.querySelectorAll('.option');
-    optionElements.forEach(option => {
-        option.disabled = true;
-    })
+    optionElements.forEach(option => {option.disabled = true;})
+    nextButton.disabled = false;
 }
 
 function moveToNextQuestion() {
@@ -115,7 +115,7 @@ function moveToNextQuestion() {
         downloadLink.href = URL.createObjectURL(blob);
         downloadLink.download = "quiz_log.txt";
         downloadLink.click();
-        //alert("全ての問題が終了しました");
+        alert("全ての問題が終了しました");
         currentQuestionIndex = 0;
         score = 0;
         update_display_scores();
