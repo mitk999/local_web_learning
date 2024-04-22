@@ -41,19 +41,19 @@ fileUpload.addEventListener("change", function(event) {
 });
 
 function showQuestion(question) {
-    
+
     if (!question.word_hidden){
         questionElement.textContent = question.word;
     }
 
     optionsContainer.innerHTML = "";
-    
+
     if (question.word_voice){
         let uttr = new SpeechSynthesisUtterance(question.word)
         if (is_japanese(question.word)){
             uttr.lang = "ja-JP";
         }else{uttr.lang = "en-US";}
-    
+
         speechSynthesis.speak(uttr)
     }
     if (question.options_shuffle){
@@ -89,6 +89,12 @@ function checkAnswer(selectedOption) {
 
     resultElement.innerHTML += "<br>" + currentQuestion.answer_description;
     resultElement.style.display = "block";
+
+    //後処理
+    var optionElements = document.querySelectorAll('.option');
+    optionElements.forEach(option => {
+        option.disabled = true;
+    })
 }
 
 function moveToNextQuestion() {
