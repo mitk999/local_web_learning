@@ -20,6 +20,9 @@
     th {
       background-color: #f2f2f2;
     }
+    th:hover {
+      cursor: pointer;
+    }
     </style>
 </head>
 <body>
@@ -30,11 +33,11 @@
     <table id="scoreTable">
         <thead>
           <tr>
-            <th>問題名</th>
-            <th>最高得点</th>
-            <th>実行回数</th>
-            <th>直近2回の平均点</th>
-            <th>実行日時</th>
+            <th onclick="sortTable(0)">問題名</th>
+            <th onclick="sortTable(1)">最高得点</th>
+            <th onclick="sortTable(2)">実行回数</th>
+            <th onclick="sortTable(3)">直近2回の平均点</th>
+            <th onclick="sortTable(4)">実行日時</th>
           </tr>
         </thead>
         <tbody>
@@ -43,6 +46,51 @@
     </table>
     <canvas id="myChart" width="600" height="400"></canvas>
     <script>
+        var ascending = true;
+        function sortTable(columnIndex) {
+          var table, rows, switching, i, x, y, shouldSwitch;
+          table = document.getElementById("scoreTable");
+          switching = true;
+          while (switching) {
+            switching = false;
+            rows = table.rows;
+            for (i = 1; i < (rows.length - 1); i++) {
+              shouldSwitch = false;
+              x = rows[i].getElementsByTagName("td")[columnIndex];
+              y = rows[i + 1].getElementsByTagName("td")[columnIndex];
+              if (isNaN(x.innerHTML)) {
+                if (ascending) {
+                  if (x.innerHTML.toLowerCase() > y.innerHTML.toLowerCase()) {
+                    shouldSwitch = true;
+                    break;
+                  }
+                } else {
+                  if (x.innerHTML.toLowerCase() < y.innerHTML.toLowerCase()) {
+                    shouldSwitch = true;
+                    break;
+                  }
+                }
+              } else {
+                if (ascending) {
+                  if (parseInt(x.innerHTML) > parseInt(y.innerHTML)) {
+                    shouldSwitch = true;
+                    break;
+                  }
+                } else {
+                  if (parseInt(x.innerHTML) < parseInt(y.innerHTML)) {
+                    shouldSwitch = true;
+                    break;
+                  }
+                }
+              }
+            }
+            if (shouldSwitch) {
+              rows[i].parentNode.insertBefore(rows[i + 1], rows[i]);
+              switching = true;
+            }
+          }
+          ascending = !ascending;
+        }
         function drawChart(){
             drawbarchart();
             drawScoreTable();
@@ -130,7 +178,7 @@
             const tableBody = document.getElementById('scoreTable').getElementsByTagName('tbody')[0];
             tableBody.innerHTML = '';
 
-            const fileInput = document.getElementById('csvInput');    
+            const fileInput = document.getElementById('csvInput');
             const file = fileInput.files[0];
             if (!file) return;
 
