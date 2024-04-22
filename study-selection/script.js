@@ -119,6 +119,7 @@ function moveToNextQuestion() {
         downloadLink.download = "quiz_log.txt";
         downloadLink.click();
         alert("全ての問題が終了しました");
+        logMessageEachQuestion = ""
         currentQuestionIndex = 0;
         score = 0;
         update_display_scores();
