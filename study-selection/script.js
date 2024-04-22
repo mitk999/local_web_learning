@@ -12,6 +12,7 @@ const incorrectSound = document.getElementById('incorrect-sound');
 incorrectSound.volume=0.6;
 const levelupSound = document.getElementById('levelup-sound');
 levelupSound.volume=0.15;
+var logMessageEachQuestion = ""
 
 let filename = '';
 let questions = [];
@@ -80,12 +81,14 @@ function checkAnswer(selectedOption) {
         resultElement.innerHTML = "正解！";
         resultElement.style.color = "green";
         score++;
+        logMessageEachQuestion += `,${currentQuestionIndex+1}:t`
     } else {
         incorrectSound.pause();
         incorrectSound.currentTime = 0;
         incorrectSound.play();
         resultElement.innerHTML = "不正解！正解は「" + correctAnswer + "」です。";
         resultElement.style.color = "red";
+        logMessageEachQuestion += `,${currentQuestionIndex+1}:f`
     }
 
     resultElement.innerHTML += "<br>" + currentQuestion.answer_description;
@@ -109,7 +112,7 @@ function moveToNextQuestion() {
             levelupSound.currentTime = 0;
             levelupSound.play();
         }
-        const logMessage = `${now_str()},${filename},${questions.length},${score},${Math.trunc((score / questions.length) * 100)}`;
+        const logMessage = `${now_str()},${filename},${questions.length},${score},${Math.trunc((score / questions.length) * 100)}${logMessageEachQuestion}`;
         const blob = new Blob([logMessage], { type: "text/plain" });
         const downloadLink = document.createElement("a");
         downloadLink.href = URL.createObjectURL(blob);
