@@ -7,7 +7,7 @@ const nextButton = document.getElementById("next-button");
 nextButton.addEventListener("click", moveToNextQuestion);
 
 const correctSound = document.getElementById('correct-sound');
-correctSound.volume=1.0;
+correctSound.volume=0.8;
 const incorrectSound = document.getElementById('incorrect-sound');
 incorrectSound.volume=0.8;
 const levelupSound = document.getElementById('levelup-sound');
