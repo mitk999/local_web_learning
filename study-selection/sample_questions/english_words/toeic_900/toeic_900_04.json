@@ -1,0 +1,82 @@
+[
+  {
+    "word": "devoid",
+    "word_voice": true,
+    "kana": "ディヴォイド",
+    "options": [
+      "充実している",
+      "豊富な",
+      "欠けていて",
+      "多様な",
+      "輝いている",
+      "魅力的な"
+    ],
+    "options_shuffle": true,
+    "answer": "欠けていて",
+    "answer_description": "「devoid」は「欠けていて」という意味で、ある特性や特徴を持っていないことを指します。例えば、「The room was devoid of furniture.」（その部屋には家具が一切なかった。）のように使われます。"
+  },
+  {
+    "word": "disrupt",
+    "word_voice": true,
+    "kana": "ディスラプト",
+    "options": [
+      "連携させる",
+      "停止させる",
+      "中断させる",
+      "支援する",
+      "進化させる",
+      "統合させる"
+    ],
+    "options_shuffle": true,
+    "answer": "中断させる",
+    "answer_description": "「disrupt」は「中断させる」という意味で、通常の進行や流れを乱すことを指します。例えば、「The construction work disrupted traffic in the area.」（建設作業がその地域の交通を混乱させました。）のように使われます。"
+  },
+  {
+    "word": "enhance",
+    "word_voice": true,
+    "kana": "エンハンス",
+    "options": [
+      "損なう",
+      "減少させる",
+      "高める",
+      "分割する",
+      "隠す",
+      "失敗する"
+    ],
+    "options_shuffle": true,
+    "answer": "高める",
+    "answer_description": "「enhance」は「強化する」という意味で、質や価値を向上させることを指します。例えば、「Regular exercise can enhance your physical health.」（定期的な運動は体の健康を高めることができます。）のように使われます。"
+  },
+  {
+    "word": "expertise",
+    "word_voice": true,
+    "kana": "エキスパティーズ",
+    "options": [
+      "経験",
+      "専門的知識",
+      "勇気",
+      "才能",
+      "熱意",
+      "適性"
+    ],
+    "options_shuffle": true,
+    "answer": "専門的知識",
+    "answer_description": "「expertise」は「専門的知識」という意味で、ある分野での専門家としてのスキルや知識を指します。例えば、「She has expertise in computer programming.」（彼女はコンピュータプログラミングの専門知識を持っています。）のように使われます。"
+  },
+  {
+    "word": "extravagance",
+    "word_voice": true,
+    "kana": "エクストラヴァガンス",
+    "options": [
+      "節約",
+      "控えめさ",
+      "浪費",
+      "普通さ",
+      "謙虚さ",
+      "標準的なもの"
+    ],
+    "options_shuffle": true,
+    "answer": "浪費",
+    "answer_description": "「extravagance」は「浪費」という意味で、過度に贅沢や無駄遣いをすることを指します。例えば、「Their wedding was marked by extravagance and luxury.」（彼らの結婚式は浪費と贅沢で特徴づけられました。）のように使われます。"
+  }
+]

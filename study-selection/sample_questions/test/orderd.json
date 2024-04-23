@@ -1,0 +1,40 @@
+{
+   "settings":{
+      "question_randomize":false
+   },
+   "questions":[
+      {
+         "word":"「/」をうって、コマンドのがめんをひらいてください。<br>もしまちがえたばあいは「Esc」がキーボードの「ひだりうえ」にあるのでおしましょう。",
+         "word_hidden":false,
+         "kana":"",
+         "word_voice":false,
+         "options":[
+            "できました！"
+         ],
+         "options_shuffle":false,
+         "answer":"できました！"
+      },
+      {
+         "word":"/gamemode survival とかいて、キーボードのみぎのほうにある「enter」をおしましょう。サバイバルモードになります",
+         "word_hidden":false,
+         "kana":"",
+         "word_voice":false,
+         "options":[
+            "できました！"
+         ],
+         "options_shuffle":false,
+         "answer":"できました！"
+      },
+      {
+         "word":"/gamemode creative とかいて、キーボードのみぎのほうにある「enter」をおしましょう。クリエイティブモードになります",
+         "word_hidden":false,
+         "kana":"",
+         "word_voice":false,
+         "options":[
+            "できました！"
+         ],
+         "options_shuffle":false,
+         "answer":"できました！"
+      }
+   ]
+}

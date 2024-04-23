@@ -1,0 +1,82 @@
+[
+  {
+    "word": "protocol",
+    "word_voice": true,
+    "kana": "プロトコル",
+    "options": [
+      "議定書",
+      "宣言",
+      "憲章",
+      "儀礼",
+      "協定",
+      "規約"
+    ],
+    "options_shuffle": true,
+    "answer": "協定",
+    "answer_description": "「protocol」は「協定」という意味で、特定の行動や手続きを規定したり、合意したりする形式的な手順を指します。例えば、「The diplomatic protocol must be followed during the meeting.」（会議中には外交的な儀礼を守る必要があります。）のように使われます。"
+  },
+  {
+    "word": "redeem",
+    "word_voice": true,
+    "kana": "リディーム",
+    "options": [
+      "（クーポンなどを）商品に換える",
+      "捨てる",
+      "販売する",
+      "支払う",
+      "予約する",
+      "交換する"
+    ],
+    "options_shuffle": true,
+    "answer": "（クーポンなどを）商品に換える",
+    "answer_description": "「redeem」は「（クーポンなどを）商品に換える」という意味で、特定の条件や要件を満たして特典や割引券を利用することを指します。例えば、「You can redeem this coupon for a free meal.」（このクーポン券を使って無料の食事を受け取れます。）のように使われます。"
+  },
+  {
+    "word": "reluctantly",
+    "word_voice": true,
+    "kana": "リラクタントリー",
+    "options": [
+      "楽しそうに",
+      "意欲的に",
+      "素直に",
+      "ためらいなく",
+      "しぶしぶ",
+      "積極的に"
+    ],
+    "options_shuffle": true,
+    "answer": "しぶしぶ",
+    "answer_description": "「reluctantly」は「しぶしぶ」という意味で、不本意ながら行動する様子を表します。例えば、「He reluctantly agreed to help us move.」（彼はしぶしぶ私たちの引っ越しを手伝うことに同意しました。）のように使われます。"
+  },
+  {
+    "word": "responsive",
+    "word_voice": true,
+    "kana": "リスポンシブ",
+    "options": [
+      "素早い",
+      "反応しない",
+      "優柔不断な",
+      "すぐ応答する",
+      "鈍感な",
+      "緊急の"
+    ],
+    "options_shuffle": true,
+    "answer": "すぐ応答する",
+    "answer_description": "「responsive」は「すぐ応答する」という意味で、迅速かつ適切に反応する能力を指します。例えば、「The customer service was very responsive to my inquiries.」（顧客サービスは私の問い合わせに対して非常に迅速に対応しました。）のように使われます。"
+  },
+  {
+    "word": "simultaneously",
+    "word_voice": true,
+    "kana": "サイマルティニアスリー",
+    "options": [
+      "一時的に",
+      "順次に",
+      "同時に",
+      "次第に",
+      "定期的に",
+      "絶えず"
+    ],
+    "options_shuffle": true,
+    "answer": "同時に",
+    "answer_description": "「simultaneously」は「同時に」という意味で、複数の行動や事象が同じ時に起こることを指します。例えば、「The dancers moved in unison, executing their routine simultaneously.」（ダンサーたちは同時に動き、彼らのルーティンを実行しました。）のように使われます。"
+  }
+]

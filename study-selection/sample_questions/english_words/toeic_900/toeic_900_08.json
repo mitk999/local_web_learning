@@ -1,0 +1,82 @@
+[
+  {
+    "word": "skeptical",
+    "word_voice": true,
+    "kana": "スケプティカル",
+    "options": [
+      "信頼できる",
+      "楽観的な",
+      "懐疑的な",
+      "確信を持っている",
+      "積極的な",
+      "信じる"
+    ],
+    "options_shuffle": true,
+    "answer": "懐疑的な",
+    "answer_description": "「skeptical」は「懐疑的な」という意味で、ある主張や情報に対して疑いを持っていることを指します。例えば、「She was skeptical about the new diet plan.」（彼女は新しいダイエット計画について懐疑的でした。）のように使われます。"
+  },
+  {
+    "word": "stabilize",
+    "word_voice": true,
+    "kana": "ステイビライズ",
+    "options": [
+      "変化させる",
+      "停止させる",
+      "強化する",
+      "安定させる",
+      "解放する",
+      "増加させる"
+    ],
+    "options_shuffle": true,
+    "answer": "安定させる",
+    "answer_description": "「stabilize」は「安定させる」という意味で、状況や状態を安定させることを指します。例えば、「The government is working to stabilize the economy.」（政府は経済を安定させるために取り組んでいます。）のように使われます。"
+  },
+  {
+    "word": "stimulation",
+    "word_voice": true,
+    "kana": "スティミュレーション",
+    "options": [
+      "冷静",
+      "刺激",
+      "挑戦",
+      "沈静",
+      "満足",
+      "感動"
+    ],
+    "options_shuffle": true,
+    "answer": "刺激",
+    "answer_description": "「stimulation」は「刺激」という意味で、興奮や活動を引き起こすことを指します。例えば、「The music provided a source of stimulation for the patients.」（音楽は患者たちに刺激を与える源となりました。）のように使われます。"
+  },
+  {
+    "word": "subconscious",
+    "word_voice": true,
+    "kana": "サブコンシャス",
+    "options": [
+      "意識的な",
+      "認識できる",
+      "潜在意識の",
+      "明確な",
+      "理解できる",
+      "鋭い"
+    ],
+    "options_shuffle": true,
+    "answer": "潜在意識の",
+    "answer_description": "「subconscious」は「潜在意識の」という意味で、意識の外にある心の領域を指します。例えば、「Dreams often tap into the subconscious mind.」（夢はしばしば潜在意識にアクセスします。）のように使われます。"
+  },
+  {
+    "word": "subdue",
+    "word_voice": true,
+    "kana": "サブデュー",
+    "options": [
+      "（感情を）解放する",
+      "（感情を）抑える",
+      "（感情を）高める",
+      "（感情を）無視する",
+      "（感情を）強化する",
+      "（感情を）受け入れる"
+    ],
+    "options_shuffle": true,
+    "answer": "（感情を）抑える",
+    "answer_description": "「subdue」は「（感情を）抑える」という意味で、感情や行動を抑制して制御することを指します。例えば、「He tried to subdue his anger before responding.」（彼は返答する前に怒りを抑えようとしました。）のように使われます。"
+  }
+]

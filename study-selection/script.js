@@ -12,8 +12,9 @@ const incorrectSound = document.getElementById('incorrect-sound');
 incorrectSound.volume=0.6;
 const levelupSound = document.getElementById('levelup-sound');
 levelupSound.volume=0.15;
-var logMessageEachQuestion = ""
+const inputElement = document.getElementById('input');
 
+var logMessageEachQuestion = ""
 let filename = '';
 let questions = [];
 let currentQuestionIndex = 0;
@@ -44,7 +45,7 @@ fileUpload.addEventListener("change", function(event) {
 function showQuestion(question) {
 
     if (!question.word_hidden){
-        questionElement.textContent = question.word;
+        questionElement.innerHTML = question.word;
     }
 
     optionsContainer.innerHTML = "";
@@ -54,20 +55,25 @@ function showQuestion(question) {
         if (is_japanese(question.word)){
             uttr.lang = "ja-JP";
         }else{uttr.lang = "en-US";}
-
-        speechSynthesis.speak(uttr)
+          speechSynthesis.speak(uttr)
     }
     if (question.options_shuffle){
         question.options = shuffle_arr(question.options)
     }
-    question.options.forEach(option => {
-        const button = document.createElement("button");
-        button.textContent = option;
-        button.classList.add("option");
-        button.addEventListener("click", () => checkAnswer(option));
-        optionsContainer.appendChild(button);
-    });
-    nextButton.disabled = true;
+    if (question.options){
+      question.options.forEach(option => {
+          const button = document.createElement("button");
+          button.textContent = option;
+          button.classList.add("option");
+          button.addEventListener("click", () => checkAnswer(option));
+          optionsContainer.appendChild(button);
+      });
+      nextButton.disabled = true;
+    }else{
+        inputElement.style.display = "block";
+        nextButton.addEventListener("click", () => checkAnswer(inputElement.value.trim().toLowerCase()));
+        nextButton.disabled = false;
+    }
 }
 
 function checkAnswer(selectedOption) {
