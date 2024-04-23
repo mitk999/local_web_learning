@@ -68,12 +68,18 @@ function showQuestion(question) {
           button.addEventListener("click", () => checkAnswer(option));
           optionsContainer.appendChild(button);
       });
-      nextButton.disabled = true;
+      // nextButton.disabled = true;
     }else{
         inputElement.style.display = "block";
-        nextButton.addEventListener("click", () => checkAnswer(inputElement.value.trim().toLowerCase()));
-        nextButton.disabled = false;
+        inputElement.addEventListener("keydown", function(event) {
+          if (event.key === "Enter") {
+            checkAnswer(inputElement.value.trim().toLowerCase())
+          }
+        });
+        // nextButton.addEventListener("click", () => );
+        // nextButton.disabled = false;
     }
+    nextButton.disabled = true;
 }
 
 function checkAnswer(selectedOption) {
@@ -104,9 +110,12 @@ function checkAnswer(selectedOption) {
     var optionElements = document.querySelectorAll('.option');
     optionElements.forEach(option => {option.disabled = true;})
     nextButton.disabled = false;
+    inputElement.disabled = true;
 }
 
 function moveToNextQuestion() {
+    inputElement.value = "";
+    inputElement.disabled = false;
     resultElement.style.display = "none";
     currentQuestionIndex++;
     update_display_scores();
