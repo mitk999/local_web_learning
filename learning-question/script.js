@@ -61,12 +61,13 @@ function showQuestion(question) {
         question.options = shuffle_arr(question.options)
     }
     if (question.options){
-      question.options.forEach(option => {
+      question.options.forEach((option,index) => {
           const button = document.createElement("button");
           button.textContent = option;
           button.classList.add("option");
           button.addEventListener("click", () => checkAnswer(option));
           optionsContainer.appendChild(button);
+          if (index === 0) {button.focus();}
       });
       // nextButton.disabled = true;
     }else{
