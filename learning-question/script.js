@@ -11,7 +11,7 @@ correctSound.volume=0.6;
 const incorrectSound = document.getElementById('incorrect-sound');
 incorrectSound.volume=0.6;
 const levelupSound = document.getElementById('levelup-sound');
-levelupSound.volume=0.15;
+levelupSound.volume=0.3;
 const inputElement = document.getElementById('input');
 
 var logMessageEachQuestion = ""
