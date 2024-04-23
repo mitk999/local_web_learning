@@ -1,0 +1,47 @@
+[
+    {
+        "word": "あ",
+        "word_hidden": false,
+        "kana": "",
+        "word_voice": false,
+        "options_shuffle": false,
+        "answer": "a",
+        "answer_description": ""
+    },
+    {
+        "word": "い",
+        "word_hidden": false,
+        "kana": "",
+        "word_voice": false,
+        "options_shuffle": false,
+        "answer": "i",
+        "answer_description": ""
+    },
+    {
+        "word": "う",
+        "word_hidden": false,
+        "kana": "",
+        "word_voice": false,
+        "options_shuffle": false,
+        "answer": "u",
+        "answer_description": ""
+    },
+    {
+        "word": "え",
+        "word_hidden": false,
+        "kana": "",
+        "word_voice": false,
+        "options_shuffle": false,
+        "answer": "e",
+        "answer_description": ""
+    },
+    {
+        "word": "お",
+        "word_hidden": false,
+        "kana": "",
+        "word_voice": false,
+        "options_shuffle": false,
+        "answer": "o",
+        "answer_description": ""
+    }
+]

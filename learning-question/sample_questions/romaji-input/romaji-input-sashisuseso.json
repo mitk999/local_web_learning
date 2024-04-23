@@ -1,0 +1,47 @@
+[
+    {
+        "word": "さ",
+        "word_hidden": false,
+        "kana": "",
+        "word_voice": false,
+        "options_shuffle": false,
+        "answer": "sa",
+        "answer_description": ""
+    },
+    {
+        "word": "し",
+        "word_hidden": false,
+        "kana": "",
+        "word_voice": false,
+        "options_shuffle": false,
+        "answer": "si",
+        "answer_description": ""
+    },
+    {
+        "word": "す",
+        "word_hidden": false,
+        "kana": "",
+        "word_voice": false,
+        "options_shuffle": false,
+        "answer": "su",
+        "answer_description": ""
+    },
+    {
+        "word": "せ",
+        "word_hidden": false,
+        "kana": "",
+        "word_voice": false,
+        "options_shuffle": false,
+        "answer": "se",
+        "answer_description": ""
+    },
+    {
+        "word": "そ",
+        "word_hidden": false,
+        "kana": "",
+        "word_voice": false,
+        "options_shuffle": false,
+        "answer": "so",
+        "answer_description": ""
+    }
+]

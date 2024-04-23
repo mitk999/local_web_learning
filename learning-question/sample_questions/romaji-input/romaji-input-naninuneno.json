@@ -1,0 +1,47 @@
+[
+    {
+        "word": "な",
+        "word_hidden": false,
+        "kana": "",
+        "word_voice": false,
+        "options_shuffle": false,
+        "answer": "na",
+        "answer_description": ""
+    },
+    {
+        "word": "に",
+        "word_hidden": false,
+        "kana": "",
+        "word_voice": false,
+        "options_shuffle": false,
+        "answer": "ni",
+        "answer_description": ""
+    },
+    {
+        "word": "ぬ",
+        "word_hidden": false,
+        "kana": "",
+        "word_voice": false,
+        "options_shuffle": false,
+        "answer": "nu",
+        "answer_description": ""
+    },
+    {
+        "word": "ね",
+        "word_hidden": false,
+        "kana": "",
+        "word_voice": false,
+        "options_shuffle": false,
+        "answer": "ne",
+        "answer_description": ""
+    },
+    {
+        "word": "の",
+        "word_hidden": false,
+        "kana": "",
+        "word_voice": false,
+        "options_shuffle": false,
+        "answer": "no",
+        "answer_description": ""
+    }
+]

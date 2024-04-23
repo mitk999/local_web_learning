@@ -1,0 +1,47 @@
+[
+    {
+        "word": "か",
+        "word_hidden": false,
+        "kana": "",
+        "word_voice": false,
+        "options_shuffle": false,
+        "answer": "ka",
+        "answer_description": ""
+    },
+    {
+        "word": "き",
+        "word_hidden": false,
+        "kana": "",
+        "word_voice": false,
+        "options_shuffle": false,
+        "answer": "ki",
+        "answer_description": ""
+    },
+    {
+        "word": "く",
+        "word_hidden": false,
+        "kana": "",
+        "word_voice": false,
+        "options_shuffle": false,
+        "answer": "ku",
+        "answer_description": ""
+    },
+    {
+        "word": "け",
+        "word_hidden": false,
+        "kana": "",
+        "word_voice": false,
+        "options_shuffle": false,
+        "answer": "ke",
+        "answer_description": ""
+    },
+    {
+        "word": "こ",
+        "word_hidden": false,
+        "kana": "",
+        "word_voice": false,
+        "options_shuffle": false,
+        "answer": "ko",
+        "answer_description": ""
+    }
+]

@@ -1,0 +1,56 @@
+[
+    {
+        "word": "や",
+        "word_hidden": false,
+        "kana": "",
+        "word_voice": false,
+        "options_shuffle": false,
+        "answer": "ya",
+        "answer_description": ""
+    },
+    {
+        "word": "ゆ",
+        "word_hidden": false,
+        "kana": "",
+        "word_voice": false,
+        "options_shuffle": false,
+        "answer": "yu",
+        "answer_description": ""
+    },
+    {
+        "word": "よ",
+        "word_hidden": false,
+        "kana": "",
+        "word_voice": false,
+        "options_shuffle": false,
+        "answer": "yo",
+        "answer_description": ""
+    },
+    {
+        "word": "わ",
+        "word_hidden": false,
+        "kana": "",
+        "word_voice": false,
+        "options_shuffle": false,
+        "answer": "wa",
+        "answer_description": ""
+    },
+    {
+        "word": "を",
+        "word_hidden": false,
+        "kana": "",
+        "word_voice": false,
+        "options_shuffle": false,
+        "answer": "wo",
+        "answer_description": ""
+    },
+    {
+        "word": "ん",
+        "word_hidden": false,
+        "kana": "",
+        "word_voice": false,
+        "options_shuffle": false,
+        "answer": "n",
+        "answer_description": ""
+    }
+]

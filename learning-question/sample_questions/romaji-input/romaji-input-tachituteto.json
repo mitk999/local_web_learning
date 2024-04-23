@@ -1,0 +1,47 @@
+[
+    {
+        "word": "た",
+        "word_hidden": false,
+        "kana": "",
+        "word_voice": false,
+        "options_shuffle": false,
+        "answer": "ta",
+        "answer_description": ""
+    },
+    {
+        "word": "ち",
+        "word_hidden": false,
+        "kana": "",
+        "word_voice": false,
+        "options_shuffle": false,
+        "answer": "ti",
+        "answer_description": ""
+    },
+    {
+        "word": "つ",
+        "word_hidden": false,
+        "kana": "",
+        "word_voice": false,
+        "options_shuffle": false,
+        "answer": "tu",
+        "answer_description": ""
+    },
+    {
+        "word": "て",
+        "word_hidden": false,
+        "kana": "",
+        "word_voice": false,
+        "options_shuffle": false,
+        "answer": "te",
+        "answer_description": ""
+    },
+    {
+        "word": "と",
+        "word_hidden": false,
+        "kana": "",
+        "word_voice": false,
+        "options_shuffle": false,
+        "answer": "to",
+        "answer_description": ""
+    }
+]

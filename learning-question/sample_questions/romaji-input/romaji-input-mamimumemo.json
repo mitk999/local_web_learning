@@ -1,0 +1,47 @@
+[
+    {
+        "word": "ま",
+        "word_hidden": false,
+        "kana": "",
+        "word_voice": false,
+        "options_shuffle": false,
+        "answer": "ma",
+        "answer_description": ""
+    },
+    {
+        "word": "み",
+        "word_hidden": false,
+        "kana": "",
+        "word_voice": false,
+        "options_shuffle": false,
+        "answer": "mi",
+        "answer_description": ""
+    },
+    {
+        "word": "む",
+        "word_hidden": false,
+        "kana": "",
+        "word_voice": false,
+        "options_shuffle": false,
+        "answer": "mu",
+        "answer_description": ""
+    },
+    {
+        "word": "め",
+        "word_hidden": false,
+        "kana": "",
+        "word_voice": false,
+        "options_shuffle": false,
+        "answer": "me",
+        "answer_description": ""
+    },
+    {
+        "word": "も",
+        "word_hidden": false,
+        "kana": "",
+        "word_voice": false,
+        "options_shuffle": false,
+        "answer": "mo",
+        "answer_description": ""
+    }
+]

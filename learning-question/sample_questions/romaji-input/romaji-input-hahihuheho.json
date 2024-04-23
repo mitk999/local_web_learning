@@ -1,0 +1,47 @@
+[
+    {
+        "word": "は",
+        "word_hidden": false,
+        "kana": "",
+        "word_voice": false,
+        "options_shuffle": false,
+        "answer": "ha",
+        "answer_description": ""
+    },
+    {
+        "word": "ひ",
+        "word_hidden": false,
+        "kana": "",
+        "word_voice": false,
+        "options_shuffle": false,
+        "answer": "hi",
+        "answer_description": ""
+    },
+    {
+        "word": "ふ",
+        "word_hidden": false,
+        "kana": "",
+        "word_voice": false,
+        "options_shuffle": false,
+        "answer": "hu",
+        "answer_description": ""
+    },
+    {
+        "word": "へ",
+        "word_hidden": false,
+        "kana": "",
+        "word_voice": false,
+        "options_shuffle": false,
+        "answer": "he",
+        "answer_description": ""
+    },
+    {
+        "word": "ほ",
+        "word_hidden": false,
+        "kana": "",
+        "word_voice": false,
+        "options_shuffle": false,
+        "answer": "ho",
+        "answer_description": ""
+    }
+]
