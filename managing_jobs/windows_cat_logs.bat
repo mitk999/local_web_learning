@@ -2,18 +2,22 @@
 chcp 65001 > nul
 setlocal enabledelayedexpansion
 
-REM 出力するファイル名を指定します
-set OUTPUT_FILE=./output/study_logs.txt
+REM Prompt the user to input their name
+echo Enter your username:
+set /p USERNAME=
 
-REM ダウンロードフォルダのパスを指定します
+REM Specify the output file name
+set OUTPUT_FILE=./output/study_logs_!USERNAME!.txt
+
+REM Specify the path to the download folder
 set DOWNLOAD_FOLDER=%USERPROFILE%\Downloads
 
-REM 出力フォルダが存在しない場合は作成します
+REM Create the output folder if it does not exist
 if not exist "./output" (
     mkdir "./output"
 )
 
-REM 出力ファイルが既に存在する場合は追記モードで開きます
+REM Open the output file in append mode if it already exists
 if exist "%OUTPUT_FILE%" (
     for %%i in ("%DOWNLOAD_FOLDER%\quiz_log*") do (
         type "%%i" >> "%OUTPUT_FILE%"
@@ -21,7 +25,7 @@ if exist "%OUTPUT_FILE%" (
         del "%%i"
     )
 ) else (
-    REM 出力ファイルが存在しない場合は新規作成します
+    REM Create a new output file if it does not exist
     type nul > "%OUTPUT_FILE%"
     for %%i in ("%DOWNLOAD_FOLDER%\quiz_log*") do (
         type "%%i" >> "%OUTPUT_FILE%"
@@ -30,9 +34,9 @@ if exist "%OUTPUT_FILE%" (
     )
 )
 
-echo ファイルのまとめが完了しました。
+echo File consolidation completed.
 
-REM 以下の行で無限ループを作成し、プロンプトが閉じないようにします。
+REM Create an infinite loop to prevent the prompt from closing.
 :loop
 timeout /t 3600 /nobreak >nul
 goto loop

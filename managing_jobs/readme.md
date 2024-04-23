@@ -1,6 +1,8 @@
 # This folder contains jobs for administrators.
 ## windows_cat_logs.bat
-After each study-xxx is completed, the log will be downloaded. This job cat the downloaded log and create text under managing_jobs/output and delete it from the download folder.
+After each study-xxx is completed, the log will be downloaded. 
+This job cat the downloaded log and create text under managing_jobs/output and delete it from the download folder.
+you can separate file by user. if you double click this batfile, you should enter user_name. and the user_name id added to file name.
 This file is for input of "score_dashboard". you can analyze study logs.
 Only you have to do is to double click this file after study and open from score_dashboard.
 
