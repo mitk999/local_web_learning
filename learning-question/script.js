@@ -43,12 +43,12 @@ fileUpload.addEventListener("change", function(event) {
 });
 
 function showQuestion(question) {
+    inputElement.style.display = "none";
+    optionsContainer.innerHTML = "";
 
     if (!question.word_hidden){
         questionElement.innerHTML = question.word;
     }
-
-    optionsContainer.innerHTML = "";
 
     if (question.word_voice){
         let uttr = new SpeechSynthesisUtterance(question.word)
@@ -71,6 +71,7 @@ function showQuestion(question) {
       // nextButton.disabled = true;
     }else{
         inputElement.style.display = "block";
+        inputElement.focus();
         inputElement.addEventListener("keydown", function(event) {
           if (event.key === "Enter") {
             checkAnswer(inputElement.value.trim().toLowerCase())
