@@ -13,7 +13,7 @@
     ],
     "options_shuffle": true,
     "answer": "かすかに",
-    "answer_description": "「faintly」は「かすかに」という意味で、ほのかに感じられる程度の強さや明確さを示します。例えば、「She could faintly hear the sound of the distant train.」（彼女は遠くの電車の音をかすかに聞くことができた。）のように使われます。"
+    "answer_description": "「faintly」は「かすかに」という意味で、ほのかに感じられる程度の強さや明確さを示します。<br>例えば、「She could faintly hear the sound of the distant train.」（彼女は遠くの電車の音をかすかに聞くことができた。）のように使われます。"
   },
   {
     "word": "gratify",
@@ -29,7 +29,7 @@
     ],
     "options_shuffle": true,
     "answer": "喜ばせる",
-    "answer_description": "「gratify」は「喜ばせる」という意味で、満足や喜びを与えることを指します。例えば、「Your success will gratify your parents.」（あなたの成功は両親を喜ばせるでしょう。）のように使われます。"
+    "answer_description": "「gratify」は「喜ばせる」という意味で、満足や喜びを与えることを指します。<br>例えば、「Your success will gratify your parents.」（あなたの成功は両親を喜ばせるでしょう。）のように使われます。"
   },
   {
     "word": "hierarchy",
@@ -45,7 +45,7 @@
     ],
     "options_shuffle": true,
     "answer": "階層制度",
-    "answer_description": "「hierarchy」は「階層制度」という意味で、組織や社会における階層構造を指します。例えば、「The company has a strict hierarchy.」（その企業は厳格な階層制度を持っています。）のように使われます。"
+    "answer_description": "「hierarchy」は「階層制度」という意味で、組織や社会における階層構造を指します。<br>例えば、「The company has a strict hierarchy.」（その企業は厳格な階層制度を持っています。）のように使われます。"
   },
   {
     "word": "humiliation",
@@ -61,7 +61,7 @@
     ],
     "options_shuffle": true,
     "answer": "恥をかかせること",
-    "answer_description": "「humiliation」は「恥をかかせること」という意味で、人を恥辱させることや屈辱を与えることを指します。例えば、「He suffered public humiliation after the scandal.」（彼はスキャンダルの後、公然と恥をかかせられました。）のように使われます。"
+    "answer_description": "「humiliation」は「恥をかかせること」という意味で、人を恥辱させることや屈辱を与えることを指します。<br>例えば、「He suffered public humiliation after the scandal.」（彼はスキャンダルの後、公然と恥をかかせられました。）のように使われます。"
   },
   {
     "word": "hypothesis",
@@ -77,6 +77,6 @@
     ],
     "options_shuffle": true,
     "answer": "仮説",
-    "answer_description": "「hypothesis」は「仮説」という意味で、科学的な調査や研究において、検証の対象となる仮定や推測を指します。例えば、「The scientist proposed a new hypothesis to explain the phenomenon.」（その科学者は現象を説明する新しい仮説を提案しました。）のように使われます。"
+    "answer_description": "「hypothesis」は「仮説」という意味で、科学的な調査や研究において、検証の対象となる仮定や推測を指します。<br>例えば、「The scientist proposed a new hypothesis to explain the phenomenon.」（その科学者は現象を説明する新しい仮説を提案しました。）のように使われます。"
   }
 ]

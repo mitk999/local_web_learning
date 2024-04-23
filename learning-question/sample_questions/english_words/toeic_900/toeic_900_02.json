@@ -13,7 +13,7 @@
     ],
     "options_shuffle": true,
     "answer": "奇妙な",
-    "answer_description": "「bizarre」は「奇妙な」という意味で、普通ではない、異常な状態や行動を指します。例えば、「He had a bizarre dream last night.」（彼は昨夜奇妙な夢を見た。）のように使われます。"
+    "answer_description": "「bizarre」は「奇妙な」という意味で、普通ではない、異常な状態や行動を指します。<br>例えば、「He had a bizarre dream last night.」（彼は昨夜奇妙な夢を見た。）のように使われます。"
   },
   {
     "word": "broaden",
@@ -29,7 +29,7 @@
     ],
     "options_shuffle": true,
     "answer": "広げる",
-    "answer_description": "「broaden」は「広げる」という意味で、範囲や視野を拡大することを指します。例えば、「Reading can broaden your horizons.」（読書は視野を広げることができます。）のように使われます。"
+    "answer_description": "「broaden」は「広げる」という意味で、範囲や視野を拡大することを指します。<br>例えば、「Reading can broaden your horizons.」（読書は視野を広げることができます。）のように使われます。"
   },
   {
     "word": "circulate",
@@ -45,7 +45,7 @@
     ],
     "options_shuffle": true,
     "answer": "循環する",
-    "answer_description": "「circulate」は「循環する」という意味で、特に情報や物質があちこちに行き渡ることを指します。例えば、「The rumor began to circulate around the office.」（その噂がオフィス中に広まり始めた。）のように使われます。"
+    "answer_description": "「circulate」は「循環する」という意味で、特に情報や物質があちこちに行き渡ることを指します。<br>例えば、「The rumor began to circulate around the office.」（その噂がオフィス中に広まり始めた。）のように使われます。"
   },
   {
     "word": "coincidence",
@@ -61,7 +61,7 @@
     ],
     "options_shuffle": true,
     "answer": "偶然の一致",
-    "answer_description": "「coincidence」は「偶然の一致」という意味で、予期しないが同時に起こる出来事や状況を指します。例えば、「It was a strange coincidence that we met again in such a remote place.」（こんな遠い場所でまた会うなんて奇妙な偶然だった。）のように使われます。"
+    "answer_description": "「coincidence」は「偶然の一致」という意味で、予期しないが同時に起こる出来事や状況を指します。<br>例えば、「It was a strange coincidence that we met again in such a remote place.」（こんな遠い場所でまた会うなんて奇妙な偶然だった。）のように使われます。"
   },
   {
     "word": "constraint",
@@ -77,6 +77,6 @@
     ],
     "options_shuffle": true,
     "answer": "強制",
-    "answer_description": "「constraint」は「強制」という意味で、行動や活動を規制する制約や制限を指します。例えば、「Budget constraints limited the company's expansion plans.」（予算の制約が企業の拡大計画を制限した。）のように使われます。"
+    "answer_description": "「constraint」は「強制」という意味で、行動や活動を規制する制約や制限を指します。<br>例えば、「Budget constraints limited the company's expansion plans.」（予算の制約が企業の拡大計画を制限した。）のように使われます。"
   }
 ]

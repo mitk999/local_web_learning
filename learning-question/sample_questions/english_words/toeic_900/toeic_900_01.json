@@ -13,7 +13,7 @@
     ],
     "options_shuffle": true,
     "answer": "適切に",
-    "answer_description": "「adequately」は「適切に」という意味で、必要な程度であることを示します。例えば、「Make sure you dress adequately for the occasion.」（その場に適切に服装をしてください。）のように使われます。"
+    "answer_description": "「adequately」は「適切に」という意味で、必要な程度であることを示します。<br>例えば、「Make sure you dress adequately for the occasion.」（その場に適切に服装をしてください。）のように使われます。"
   },
   {
     "word": "allegation",
@@ -29,7 +29,7 @@
     ],
     "options_shuffle": true,
     "answer": "告発",
-    "answer_description": "「allegation」は「告発」という意味で、特に証拠や証言に基づいてされる非難や申し立てを指します。例えば、「He denied the allegations of fraud.」（彼は詐欺の告発を否定した。）のように使われます。"
+    "answer_description": "「allegation」は「告発」という意味で、特に証拠や証言に基づいてされる非難や申し立てを指します。<br>例えば、「He denied the allegations of fraud.」（彼は詐欺の告発を否定した。）のように使われます。"
   },
   {
     "word": "allege",
@@ -45,7 +45,7 @@
     ],
     "options_shuffle": true,
     "answer": "断言する",
-    "answer_description": "「allege」は「断言する」という意味で、主張や申し立てをすることを指します。例えば、「The company's spokesperson alleged that the accusations were false.」（その企業の広報は、その告発が偽りだと主張した。）のように使われます。"
+    "answer_description": "「allege」は「断言する」という意味で、主張や申し立てをすることを指します。<br>例えば、「The company's spokesperson alleged that the accusations were false.」（その企業の広報は、その告発が偽りだと主張した。）のように使われます。"
   },
   {
     "word": "alternatively",
@@ -61,7 +61,7 @@
     ],
     "options_shuffle": true,
     "answer": "代わりに",
-    "answer_description": "「alternatively」は「代わりに」という意味で、別の選択肢や方法を示します。例えば、「You can either go by train or, alternatively, by bus.」（電車で行くか、代わりにバスで行くか選べます。）のように使われます。"
+    "answer_description": "「alternatively」は「代わりに」という意味で、別の選択肢や方法を示します。<br>例えば、「You can either go by train or, alternatively, by bus.」（電車で行くか、代わりにバスで行くか選べます。）のように使われます。"
   },
   {
     "word": "bankruptcy",
@@ -77,6 +77,6 @@
     ],
     "options_shuffle": true,
     "answer": "破産",
-    "answer_description": "「bankruptcy」は「破産」という意味で、特に法的手続きを通じて経済的な破綻を意味します。例えば、「The company filed for bankruptcy last year.」（その企業は去年破産を申請した。）のように使われます。"
+    "answer_description": "「bankruptcy」は「破産」という意味で、特に法的手続きを通じて経済的な破綻を意味します。<br>例えば、「The company filed for bankruptcy last year.」（その企業は去年破産を申請した。）のように使われます。"
   }
 ]

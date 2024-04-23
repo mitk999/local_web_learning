@@ -13,7 +13,7 @@
     ],
     "options_shuffle": true,
     "answer": "欠けていて",
-    "answer_description": "「devoid」は「欠けていて」という意味で、ある特性や特徴を持っていないことを指します。例えば、「The room was devoid of furniture.」（その部屋には家具が一切なかった。）のように使われます。"
+    "answer_description": "「devoid」は「欠けていて」という意味で、ある特性や特徴を持っていないことを指します。<br>例えば、「The room was devoid of furniture.」（その部屋には家具が一切なかった。）のように使われます。"
   },
   {
     "word": "disrupt",
@@ -29,7 +29,7 @@
     ],
     "options_shuffle": true,
     "answer": "中断させる",
-    "answer_description": "「disrupt」は「中断させる」という意味で、通常の進行や流れを乱すことを指します。例えば、「The construction work disrupted traffic in the area.」（建設作業がその地域の交通を混乱させました。）のように使われます。"
+    "answer_description": "「disrupt」は「中断させる」という意味で、通常の進行や流れを乱すことを指します。<br>例えば、「The construction work disrupted traffic in the area.」（建設作業がその地域の交通を混乱させました。）のように使われます。"
   },
   {
     "word": "enhance",
@@ -45,7 +45,7 @@
     ],
     "options_shuffle": true,
     "answer": "高める",
-    "answer_description": "「enhance」は「強化する」という意味で、質や価値を向上させることを指します。例えば、「Regular exercise can enhance your physical health.」（定期的な運動は体の健康を高めることができます。）のように使われます。"
+    "answer_description": "「enhance」は「強化する」という意味で、質や価値を向上させることを指します。<br>例えば、「Regular exercise can enhance your physical health.」（定期的な運動は体の健康を高めることができます。）のように使われます。"
   },
   {
     "word": "expertise",
@@ -61,7 +61,7 @@
     ],
     "options_shuffle": true,
     "answer": "専門的知識",
-    "answer_description": "「expertise」は「専門的知識」という意味で、ある分野での専門家としてのスキルや知識を指します。例えば、「She has expertise in computer programming.」（彼女はコンピュータプログラミングの専門知識を持っています。）のように使われます。"
+    "answer_description": "「expertise」は「専門的知識」という意味で、ある分野での専門家としてのスキルや知識を指します。<br>例えば、「She has expertise in computer programming.」（彼女はコンピュータプログラミングの専門知識を持っています。）のように使われます。"
   },
   {
     "word": "extravagance",
@@ -77,6 +77,6 @@
     ],
     "options_shuffle": true,
     "answer": "浪費",
-    "answer_description": "「extravagance」は「浪費」という意味で、過度に贅沢や無駄遣いをすることを指します。例えば、「Their wedding was marked by extravagance and luxury.」（彼らの結婚式は浪費と贅沢で特徴づけられました。）のように使われます。"
+    "answer_description": "「extravagance」は「浪費」という意味で、過度に贅沢や無駄遣いをすることを指します。<br>例えば、「Their wedding was marked by extravagance and luxury.」（彼らの結婚式は浪費と贅沢で特徴づけられました。）のように使われます。"
   }
 ]

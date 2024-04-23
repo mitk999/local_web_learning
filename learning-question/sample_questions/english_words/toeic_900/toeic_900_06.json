@@ -13,7 +13,7 @@
     ],
     "options_shuffle": true,
     "answer": "真似る",
-    "answer_description": "「mimic」は「真似る」という意味で、他人や物事の動作や言動を模倣することを指します。例えば、「Children often mimic their parents' behavior.」（子どもたちはしばしば親の行動を真似ます。）のように使われます。"
+    "answer_description": "「mimic」は「真似る」という意味で、他人や物事の動作や言動を模倣することを指します。<br>例えば、「Children often mimic their parents' behavior.」（子どもたちはしばしば親の行動を真似ます。）のように使われます。"
   },
   {
     "word": "mutually",
@@ -29,7 +29,7 @@
     ],
     "options_shuffle": true,
     "answer": "相互に",
-    "answer_description": "「mutually」は「相互に」という意味で、お互いに関連していることを指します。例えば、「They reached a mutually beneficial agreement.」（彼らは相互に利益をもたらす合意に達しました。）のように使われます。"
+    "answer_description": "「mutually」は「相互に」という意味で、お互いに関連していることを指します。<br>例えば、「They reached a mutually beneficial agreement.」（彼らは相互に利益をもたらす合意に達しました。）のように使われます。"
   },
   {
     "word": "predominantly",
@@ -45,7 +45,7 @@
     ],
     "options_shuffle": true,
     "answer": "断然",
-    "answer_description": "「predominantly」は「断然」という意味で、主にある特定の要素が他の要素よりも優勢であることを指します。例えば、「The area is predominantly rural.」（その地域は主に農村地帯です。）のように使われます。"
+    "answer_description": "「predominantly」は「断然」という意味で、主にある特定の要素が他の要素よりも優勢であることを指します。<br>例えば、「The area is predominantly rural.」（その地域は主に農村地帯です。）のように使われます。"
   },
   {
     "word": "premature",
@@ -61,7 +61,7 @@
     ],
     "options_shuffle": true,
     "answer": "早すぎる",
-    "answer_description": "「premature」は「早すぎる」という意味で、適切な時期よりも前に起こることを指します。例えば、「The baby was born prematurely.」（その赤ちゃんは早産で生まれました。）のように使われます。"
+    "answer_description": "「premature」は「早すぎる」という意味で、適切な時期よりも前に起こることを指します。<br>例えば、「The baby was born prematurely.」（その赤ちゃんは早産で生まれました。）のように使われます。"
   },
   {
     "word": "protocol",
@@ -77,6 +77,6 @@
     ],
     "options_shuffle": true,
     "answer": "協定",
-    "answer_description": "「protocol」は「協定」という意味で、特定の行動や手続きを規定したり、合意したりする形式的な手順を指します。例えば、「The diplomatic protocol must be followed during the meeting.」（会議中には外交的な儀礼を守る必要があります。）のように使われます。"
+    "answer_description": "「protocol」は「協定」という意味で、特定の行動や手続きを規定したり、合意したりする形式的な手順を指します。<br>例えば、「The diplomatic protocol must be followed during the meeting.」（会議中には外交的な儀礼を守る必要があります。）のように使われます。"
   }
 ]

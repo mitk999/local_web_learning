@@ -13,7 +13,7 @@
     ],
     "options_shuffle": true,
     "answer": "矛盾する",
-    "answer_description": "「contradict」は「矛盾する」という意味で、相反する情報や意見を示します。例えば、「Her statement contradicts the evidence presented in court.」（彼女の発言は裁判で提示された証拠と矛盾しています。）のように使われます。"
+    "answer_description": "「contradict」は「矛盾する」という意味で、相反する情報や意見を示します。<br>例えば、「Her statement contradicts the evidence presented in court.」（彼女の発言は裁判で提示された証拠と矛盾しています。）のように使われます。"
   },
   {
     "word": "correlation",
@@ -29,7 +29,7 @@
     ],
     "options_shuffle": true,
     "answer": "相互関係",
-    "answer_description": "「correlation」は「相互関係」という意味で、二つ以上の事物や現象が互いに関連していることを指します。例えば、「There is a correlation between smoking and lung cancer.」（喫煙と肺がんの間には相互関係があります。）のように使われます。"
+    "answer_description": "「correlation」は「相互関係」という意味で、二つ以上の事物や現象が互いに関連していることを指します。<br>例えば、「There is a correlation between smoking and lung cancer.」（喫煙と肺がんの間には相互関係があります。）のように使われます。"
   },
   {
     "word": "designation",
@@ -45,7 +45,7 @@
     ],
     "options_shuffle": true,
     "answer": "指名",
-    "answer_description": "「designation」は「指名」という意味で、特定の役割や地位を割り当てることを指します。例えば、「She was given the designation of team leader.」（彼女はチームリーダーとしての指名を受けました。）のように使われます。"
+    "answer_description": "「designation」は「指名」という意味で、特定の役割や地位を割り当てることを指します。<br>例えば、「She was given the designation of team leader.」（彼女はチームリーダーとしての指名を受けました。）のように使われます。"
   },
   {
     "word": "devastating",
@@ -61,7 +61,7 @@
     ],
     "options_shuffle": true,
     "answer": "破壊的な",
-    "answer_description": "「devastating」は「破壊的な」という意味で、非常に破壊的で深刻な影響を与えることを示します。例えば、「The hurricane had a devastating effect on the coastal towns.」（ハリケーンは沿岸の町に壊滅的な影響を与えました。）のように使われます。"
+    "answer_description": "「devastating」は「破壊的な」という意味で、非常に破壊的で深刻な影響を与えることを示します。<br>例えば、「The hurricane had a devastating effect on the coastal towns.」（ハリケーンは沿岸の町に壊滅的な影響を与えました。）のように使われます。"
   },
   {
     "word": "devoid",
@@ -77,6 +77,6 @@
     ],
     "options_shuffle": true,
     "answer": "欠けていて",
-    "answer_description": "「devoid」は「欠けていて」という意味で、ある特性や特徴を持っていないことを指します。例えば、「The room was devoid of furniture.」（その部屋には家具が一切なかった。）のように使われます。"
+    "answer_description": "「devoid」は「欠けていて」という意味で、ある特性や特徴を持っていないことを指します。<br>例えば、「The room was devoid of furniture.」（その部屋には家具が一切なかった。）のように使われます。"
   }
 ]
